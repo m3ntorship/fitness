@@ -1,0 +1,15 @@
+/* Main Section, Header, Nav */
+.main-header .main-header__nav {
+  display: flex;
+  justify-content: space-between;
+}
+.main-header__nav .left {
+  margin-left: 2rem;
+}
+.main-header__nav .right {
+  margin-right: 2rem;
+}
+.main-header__nav ul,
+.main-header__nav ul li {
+  display: inline-block;
+}
