@@ -1,0 +1,46 @@
+/* expert trainers section */
+
+.trainers-section {
+  background-color: #f1f4f6;
+  padding: 2rem;
+}
+
+.trainers-section__wrapper {
+  text-align: center;
+}
+
+.trainers-section__title {
+  color: #161418;
+  text-transform: uppercase;
+  font-size: 2.25;
+  margin: 1rem 0;
+}
+
+.trainers-section__intro {
+  margin: 1rem 0 3rem 0;
+}
+
+.trainers-section__highlited-text {
+  color: #fa7c30;
+}
+
+.trainers-section__trainer-name {
+  margin: 1rem 0 0 0;
+  font-size: 1.625;
+  color: #161418;
+}
+
+.trainers-section__describtion {
+  margin: 0.5rem 0;
+  color: #161418;
+  font-size: 1rem;
+}
+
+.trainers-section__training-type {
+  text-transform: uppercase;
+  display: inline-block;
+  color: #fa7c30;
+  margin: 0.6rem;
+  font-weight: bold;
+  font-size: 0.875;
+}
