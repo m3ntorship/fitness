@@ -56,7 +56,7 @@
           <div class="inputs">
             <div class="wrapper">
               <div class="border">
-                <select name="number" id="number">
+                <select name="number" class="booking-number" required>
                   <option value="1">One</option>
                   <option value="2">2 People</option>
                   <option value="3" selected>3 People</option>
@@ -64,24 +64,24 @@
                 </select>
               </div>
               <div class="border">
-                <input type="date" id="date" placeholder="Date">
+                <input type="date" class="booking-date" placeholder="Date" required>
               </div>
               <div class="border">
-                <input type="time" name="" id="booking-time" placeholder="Time">
+                <input type="time" name="" class="booking-time" placeholder="Time" required>
               </div>
             </div>
             <div class="wrapper">
               <div class="border">
-                <select name="name" id="name">
-                  <option value="name1">name1</option>
-                  <option value="Name" selected disabled hidden>Name</option>
+                <select name="name" class="booking-name" required>
+                  <option value="Name" selected disabled hidden class="disabled">Name</option>
+                  <option value="1">name1</option>
                 </select>
               </div>
               <div class="border">
-                <input type="text" name="" id="booking-phone" placeholder="Phone">
+                <input type="text" name="" class="booking-phone" placeholder="Phone">
               </div>
-              <div class="border">
-                <input type="text" name="" id="booking-email" placeholder="Email">
+              <div class="border" >
+                <input type="text" name="" class="booking-email" placeholder="Email" required>
               </div>
             </div>
           </div>

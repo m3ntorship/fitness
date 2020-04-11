@@ -516,15 +516,9 @@ template {
   padding-bottom: .6rem;
   color: 1rgba(22, 20, 24, 0.7);
   padding-left: 0;
+  height: 100%;
 }
 
-.booking-section input[type="date"] {
-  -webkit-align-items: center;
-  display: -webkit-inline-flex;
-  overflow: hidden;
-  padding: 0;
-  -webkit-padding-start: 1px;
-}
 
 .booking-section button {
   font-size: 14px;
