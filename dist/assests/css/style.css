@@ -3,6 +3,7 @@ font family: Open Sans
 buttons color: #fa7c30
 */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -13,9 +14,9 @@ body {
   font-family: "Open Sans";
 }
 
-section, main, footer {
+/* section, main, footer {
   height: 100vh;
-}
+} */
 
 ul {
   list-style: none;
@@ -51,13 +52,17 @@ ul {
   display: flex;
   justify-content: space-between;
 }
+
 .main-header__nav .left {
   margin-left: 2rem;
 }
+
 .main-header__nav .right {
   margin-right: 2rem;
 }
-.main-header__nav ul, .main-header__nav ul li {
+
+.main-header__nav ul,
+.main-header__nav ul li {
   display: inline-block;
 }
 
@@ -95,9 +100,11 @@ ul {
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
- html {
-  line-height: 1.15; /* 1 */
-  -webkit-text-size-adjust: 100%; /* 2 */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
 }
 
 /* Sections
@@ -138,9 +145,12 @@ h1 {
  */
 
 hr {
-  box-sizing: content-box; /* 1 */
-  height: 0; /* 1 */
-  overflow: visible; /* 2 */
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
 }
 
 /**
@@ -149,8 +159,10 @@ hr {
  */
 
 pre {
-  font-family: monospace, monospace; /* 1 */
-  font-size: 1em; /* 2 */
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
 }
 
 /* Text-level semantics
@@ -170,9 +182,12 @@ a {
  */
 
 abbr[title] {
-  border-bottom: none; /* 1 */
-  text-decoration: underline; /* 2 */
-  text-decoration: underline dotted; /* 2 */
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
 }
 
 /**
@@ -192,8 +207,10 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace; /* 1 */
-  font-size: 1em; /* 2 */
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
 }
 
 /**
@@ -249,10 +266,14 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: inherit; /* 1 */
-  font-size: 100%; /* 1 */
-  line-height: 1.15; /* 1 */
-  margin: 0; /* 2 */
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
 }
 
 /**
@@ -261,7 +282,8 @@ textarea {
  */
 
 button,
-input { /* 1 */
+input {
+  /* 1 */
   overflow: visible;
 }
 
@@ -271,7 +293,8 @@ input { /* 1 */
  */
 
 button,
-select { /* 1 */
+select {
+  /* 1 */
   text-transform: none;
 }
 
@@ -325,12 +348,18 @@ fieldset {
  */
 
 legend {
-  box-sizing: border-box; /* 1 */
-  color: inherit; /* 2 */
-  display: table; /* 1 */
-  max-width: 100%; /* 1 */
-  padding: 0; /* 3 */
-  white-space: normal; /* 1 */
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
 }
 
 /**
@@ -356,8 +385,10 @@ textarea {
 
 [type="checkbox"],
 [type="radio"] {
-  box-sizing: border-box; /* 1 */
-  padding: 0; /* 2 */
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
 }
 
 /**
@@ -375,8 +406,10 @@ textarea {
  */
 
 [type="search"] {
-  -webkit-appearance: textfield; /* 1 */
-  outline-offset: -2px; /* 2 */
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
 }
 
 /**
@@ -393,8 +426,10 @@ textarea {
  */
 
 ::-webkit-file-upload-button {
-  -webkit-appearance: button; /* 1 */
-  font: inherit; /* 2 */
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
 }
 
 /* Interactive
@@ -436,6 +471,41 @@ template {
 }
 
 /* expert trainers section */
+
 .trainers-section {
   background-color: rgba(241, 244, 246, 255);
+  padding: 2rem;
+}
+
+.trainers-section .highlited-text {
+  color: rgba(250, 124, 48, 255)
+}
+
+.trainers-section__wrapper {
+  text-align: center;
+}
+
+.trainser-section__heading h2 {
+  margin: 1rem 0;
+  font-size: 2rem;
+}
+
+.trainser-section__heading p {
+  margin: 1rem 0 3rem 0;
+}
+
+.trainers-section__trainer h3 {
+  margin: 1rem 0 0 0;
+  font-size: 1.3rem;
+}
+
+.trainers-section__trainer p {
+  margin: .5rem 0;
+}
+
+.trainers-section__trainer .training-type {
+  text-transform: uppercase;
+  display: inline-block;
+  margin: .6rem;
+  font-size: .9rem;
 }
