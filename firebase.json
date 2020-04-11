@@ -132,6 +132,17 @@
           "destination": "/index.html"
         }
       ]
+    },
+    {
+      "target": "ahmedsamir96m",
+      "public": "docs",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
     }
   ]
 }
