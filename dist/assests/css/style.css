@@ -14,9 +14,9 @@ body {
   font-family: "Open Sans";
 }
 
-/* section, main, footer {
+section, main, footer {
   height: 100vh;
-} */
+}
 
 ul {
   list-style: none;
