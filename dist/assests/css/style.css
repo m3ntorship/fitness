@@ -2,7 +2,7 @@
 font family: Open Sans
 buttons color: #fa7c30
 */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -433,4 +433,110 @@ template {
 
 [hidden] {
   display: none;
+}
+
+/* Booking Section */
+
+.booking-section {
+  height: 519px;
+  background-color: #f1f4f6;
+}
+
+.booking-section .container {
+  width: 70%;
+  background-color: white;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 519px;
+  transform: translateY(-200px);
+}
+
+
+.booking-section img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 100% 100%;
+}
+
+.booking-section form {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.booking-section form .container {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  transform: none;
+}
+
+
+.booking-section form h2,.booking-section form h3 {
+
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 1.5rem auto;
+}
+.booking-section form h2 {
+  font-size: 36px;
+}
+
+.booking-section form h3 {
+  font-size: 26px;
+}
+
+.booking-section form .inputs {
+  margin: 1rem auto;
+}
+
+.booking-section form .wrapper {
+  grid-template-columns: repeat(3, minmax(100px,1fr));
+  column-gap: 2rem;
+  margin: 2rem auto;
+}
+
+.booking-section form .wrapper .border {
+  border-bottom: 1px solid #161418;
+  
+}
+
+.booking-section form .wrapper input,
+.booking-section form .wrapper select {
+  outline-style: none;
+  width: 100%;
+  border: none;
+  font-size: 14px;
+  padding-top: .3rem;
+  padding-bottom: .6rem;
+  color: 1rgba(22, 20, 24, 0.7);
+  padding-left: 0;
+}
+
+.booking-section input[type="date"] {
+  -webkit-align-items: center;
+  display: -webkit-inline-flex;
+  overflow: hidden;
+  padding: 0;
+  -webkit-padding-start: 1px;
+}
+
+.booking-section button {
+  font-size: 14px;
+  padding: 1rem 2.5rem;
+  border: none;
+  color: white;
+  background-color: #fa7c30;
+  font-weight: 600;
+  margin: 0 auto;
+  text-align: center;
+  letter-spacing: 1.4px;
+  border-radius: 0px;
+  text-transform: uppercase;
+  margin: 1rem auto;
 }

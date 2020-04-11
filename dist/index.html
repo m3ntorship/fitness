@@ -43,12 +43,50 @@
 
   <!-- Booking Section -->
   <section class="booking-section">
-    <div class="container wrapper">
+    <div class="container">
       <div class="booking-section__img">
         <img src="./assests/img/image1.jpg" alt="Booking Image">
       </div>
       <form class="booking-section__form">
-        Booking Form
+        <div class="container">
+          <div class="text">
+            <h3>free 7 days</h3>
+            <h2>online booking</h2>
+          </div>
+          <div class="inputs">
+            <div class="wrapper">
+              <div class="border">
+                <select name="number" id="number">
+                  <option value="1">One</option>
+                  <option value="2">2 People</option>
+                  <option value="3" selected>3 People</option>
+                  <option value="4">4 People</option>
+                </select>
+              </div>
+              <div class="border">
+                <input type="date" id="date" placeholder="Date">
+              </div>
+              <div class="border">
+                <input type="time" name="" id="booking-time" placeholder="Time">
+              </div>
+            </div>
+            <div class="wrapper">
+              <div class="border">
+                <select name="name" id="name">
+                  <option value="name1">name1</option>
+                  <option value="Name" selected disabled hidden>Name</option>
+                </select>
+              </div>
+              <div class="border">
+                <input type="text" name="" id="booking-phone" placeholder="Phone">
+              </div>
+              <div class="border">
+                <input type="text" name="" id="booking-email" placeholder="Email">
+              </div>
+            </div>
+          </div>
+          <button type="submit">Book Now</button>
+        </div>
       </form>
     </div>
   </section>
