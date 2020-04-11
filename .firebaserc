@@ -6,10 +6,40 @@
     "m3ntorship-fitness": {
       "hosting": {
         "live": [
-          "m3ntorship-fitness"
+          "m3-fitness"
         ],
         "nilegfx": [
-          "m3ntorship-fitness-nilegfx"
+          "m3-fitness-nilegfx"
+        ],
+        "abdalla-elmahdy": [
+          "m3-fitness-abdalla-elmahdy"
+        ],
+        "abdallahalaa21": [
+          "m3-fitness-abdallahalaa21"
+        ],
+        "abudzohair": [
+          "m3-fitness-abudzohair"
+        ],
+        "elhaw": [
+          "m3-fitness-elhaw"
+        ],
+        "malngaawy": [
+          "m3-fitness-malngaawy"
+        ],
+        "mohassn": [
+          "m3-fitness-mohassn"
+        ],
+        "muubar": [
+          "m3-fitness-muubar"
+        ],
+        "shimaaabdelshafy": [
+          "m3-fitness-shimaaabdelshafy"
+        ],
+        "tramsi": [
+          "m3-fitness-tramsi"
+        ],
+        "zahraa-khalil": [
+          "m3-fitness-zahraa-khalil"
         ]
       }
     }
