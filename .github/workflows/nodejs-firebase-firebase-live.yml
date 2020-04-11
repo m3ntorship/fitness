@@ -1,23 +1,19 @@
-# This workflow will do a clean install of node dependencies, build the source code and run tests across different versions of node
-# For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
-
-name: Node.js CI live
+name: firebase deployment (live)
 
 on:
   push:
-    branches: [ master ]
+    branches: [master]
 
 jobs:
-  firebase_live_deployment:
-
+  firebase_deploy_live:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
+      - uses: actions/checkout@v2
 
-    - name: GitHub Action for Firebase
-      uses: w9jds/firebase-action@v1.3.0
-      with:
-        args: deploy --only hosting:live
-      env:
-        FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+      - name: GitHub Action for Firebase
+        uses: w9jds/firebase-action@v1.3.0
+        with:
+          args: deploy --only hosting:live
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
