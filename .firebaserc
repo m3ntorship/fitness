@@ -1,5 +1,17 @@
 {
   "projects": {
     "default": "m3ntorship-fitness"
+  },
+  "targets": {
+    "m3ntorship-fitness": {
+      "hosting": {
+        "live": [
+          "m3ntorship-fitness"
+        ],
+        "nilegfx": [
+          "m3ntorship-fitness-nilegfx"
+        ]
+      }
+    }
   }
 }
