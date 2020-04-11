@@ -1,0 +1,23 @@
+body{
+  padding-top: 50px;
+  font-family: sans-serif;
+}
+
+p{
+;
+  }
+
+  .middle-container{
+position: relative;
+  background-color: grey;
+}
+.image2{
+float: right;
+margin-left: 20px;
+position: absolute;
+width:25%;
+
+}
+.fitness{
+color:#FA7C30;
+}
