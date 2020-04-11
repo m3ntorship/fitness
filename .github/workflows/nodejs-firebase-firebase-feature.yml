@@ -8,7 +8,7 @@ on:
     branches: [ master ]
 
 jobs:
-  build:
+  firebase_feature_deployment:
 
     runs-on: ubuntu-latest
 
@@ -20,4 +20,4 @@ jobs:
       env:
         FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
       with:
-        args: deploy --only hosting:${GITHUB_ACTOR,,}
+        args: deploy --only hosting:$(echo $GITHUB_ACTOR | tr '[:upper:]' '[:lower:]' )

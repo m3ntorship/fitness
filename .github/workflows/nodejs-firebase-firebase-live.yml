@@ -8,7 +8,7 @@ on:
     branches: [ master ]
 
 jobs:
-  firebase_deployment:
+  firebase_live_deployment:
 
     runs-on: ubuntu-latest
 
