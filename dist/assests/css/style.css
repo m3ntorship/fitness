@@ -434,3 +434,8 @@ template {
 [hidden] {
   display: none;
 }
+
+/* expert trainers section */
+.trainers-section {
+  background-color: rgba(241, 244, 246, 255);
+}
