@@ -1,0 +1,42 @@
+.promotion-contact-flexwrapper {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  
+  .promotions-section,
+  .contact-section {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 55vh;
+  }
+  
+  .promotions-section > *,
+  .contact-section > * {
+    margin-bottom: 25px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  
+  .promotion-header,
+  .contact-header {
+    font-size: 1em;
+  }
+  
+  .promotion-p,
+  .contact-number {
+    font-size: 2.5em;
+  }
+  
+  .promotions-section {
+    background: no-repeat url("../img/contact/image3.jpg");
+    background-size: cover;
+  }
+  
+  .contact-section {
+    background: no-repeat url("../img/contact/image4.jpg");
+    background-size: cover;
+  }
