@@ -11,20 +11,10 @@
   margin: 20px auto;
 }
 
-.personal-training .overlay {
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-  background-color: #00000040;
-  position: absolute;
-}
-
 .personal-training .personal-training__container {
   margin: 10px auto;
   text-align: center;
   color: #fff;
-  z-index: 1;
   text-transform: uppercase;
 }
 
@@ -37,13 +27,5 @@
 .personal-training .personal-training__container .big-header {
   font-size: 62px;
   letter-spacing: 3px;
-  font-weight: 700;
-  line-height: 1;
-}
-
-.personal-training .personal-training__container button {
-  background-color: #fa7c30;
-  letter-spacing: 1px;
-  margin: 40px;
-  padding: 10px 20px;
+  margin-bottom: 50px;
 }
