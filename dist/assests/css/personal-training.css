@@ -28,13 +28,13 @@
   text-transform: uppercase;
 }
 
-.personal-training .personal-training__container h3 {
+.personal-training .personal-training__container .small-header {
   font-size: 35px;
   font-weight: 400;
   line-height: 2;
 }
 
-.personal-training .personal-training__container h2 {
+.personal-training .personal-training__container .big-header {
   font-size: 62px;
   letter-spacing: 3px;
   font-weight: 700;
