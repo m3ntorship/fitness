@@ -1,0 +1,24 @@
+.footer-section__blogs {
+  width: 500px; /* temp property */
+  margin: 1.2em;
+  padding: 1.5em;
+}
+.footer-section__blogs h3 {
+  margin-bottom: 2em;
+}
+
+.footer-section__blogs .blog-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.blog-container {
+  display: flex;
+}
+
+.blog-container img {
+  width: 120px;
+  height: 80px;
+}
