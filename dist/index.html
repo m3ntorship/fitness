@@ -42,27 +42,31 @@
 
     <!-- Booking Section -->
     <section class="booking-section">
-      <div class="container">
+      <div class="container booking-section__wrapper">
         <div class="booking-section__img">
           <img src="./assests/img/image1.jpg" alt="Booking Image" />
         </div>
         <form class="booking-section__form">
-          <div class="container">
-            <div class="text">
-              <h3>free 7 days</h3>
-              <h2>online booking</h2>
+          <div class="booking-section__form__flex container">
+            <div class="booking-section__text">
+              <h3 class="booking-section__text__offer">free 7 days</h3>
+              <h2 class="booking-section__text__title">online booking</h2>
             </div>
-            <div class="inputs">
-              <div class="wrapper">
-                <div class="border">
-                  <select name="number" class="booking-number" required>
+            <div class="booking-section__inputs">
+              <div class="booking-section__inputs__wrapper">
+                <div class="booking-section__inputs__border">
+                  <select
+                    name="booking__number"
+                    class="booking-section__number"
+                    required
+                  >
                     <option value="1">One</option>
                     <option value="2">2 People</option>
                     <option value="3" selected>3 People</option>
                     <option value="4">4 People</option>
                   </select>
                 </div>
-                <div class="border">
+                <div class="booking-section__inputs__border">
                   <input
                     type="date"
                     class="booking-date"
@@ -70,18 +74,17 @@
                     required
                   />
                 </div>
-                <div class="border">
+                <div class="booking-section__inputs__border">
                   <input
                     type="time"
-                    name=""
                     class="booking-time"
                     placeholder="Time"
                     required
                   />
                 </div>
               </div>
-              <div class="wrapper">
-                <div class="border">
+              <div class="booking-section__inputs__wrapper">
+                <div class="booking-section__inputs__border">
                   <select name="name" class="booking-name" required>
                     <option
                       value="Name"
@@ -94,7 +97,7 @@
                     <option value="1">name1</option>
                   </select>
                 </div>
-                <div class="border">
+                <div class="booking-section__inputs__border">
                   <input
                     type="text"
                     name=""
@@ -102,7 +105,7 @@
                     placeholder="Phone"
                   />
                 </div>
-                <div class="border">
+                <div class="booking-section__inputs__border">
                   <input
                     type="text"
                     name=""
@@ -113,7 +116,9 @@
                 </div>
               </div>
             </div>
-            <button type="submit">Book Now</button>
+            <button class="booking-section__button" type="submit">
+              Book Now
+            </button>
           </div>
         </form>
       </div>
@@ -271,7 +276,7 @@
     </div>
 
     <!-- Footer Section -->
-    <footer class="footer-section ">
+    <footer class="footer-section">
       <div class="footer-section__wrapper wrapper container">
         <div class="footer-section__subscrition">
           <h2>Fitness</h2>
@@ -302,8 +307,6 @@
           instagram or twitter news feed
         </div>
       </div>
-<<<<<<< HEAD
-=======
       <div class="footer-section__blogs">
         Blog Posts
       </div>
@@ -320,7 +323,6 @@
         <button class="btn btn-primary" type="submit">subscribe</button>
       </form>
 
->>>>>>> origin/master
       <div class="footer-section__credits">
         footer credits
       </div>
