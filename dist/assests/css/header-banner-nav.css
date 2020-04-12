@@ -1,0 +1,84 @@
+@import url('header-banner-nav.css');
+/* Main Section, Header, Nav */
+.main-header {
+  background-image: url('../img/banner.jpg');
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+}
+.main-header .main-header__nav {
+  /* background-color: blue; */
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 100%;
+  margin-right: 1rem;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 40;
+}
+.main-header__nav .left {
+  margin-left: 2rem;
+}
+.main-header__nav .right {
+  margin-right: 1rem;
+}
+.main-header__nav ul,
+.main-header__nav ul li {
+  display: inline-block;
+  padding: 0.8rem 1rem;
+}
+.main-header__nav ul,
+.main-header__nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+.logo a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
+.logo span {
+  color: #fb7c2f;
+}
+.btn2 {
+  background-color: transparent;
+  cursor: pointer;
+  height: auto;
+  text-align: center;
+  font-size: smaller;
+  width: auto;
+  border: 1px solid white;
+  letter-spacing: 0.2em;
+}
+.main-section__info {
+  position: absolute;
+  z-index: 30;
+  top: 24%;
+  left: 15%;
+  overflow: hidden;
+  width: auto;
+}
+.main-section__info h1 {
+  color: white;
+  font-size: 4.3vw;
+  font-weight: 700;
+  line-height: 1.2em;
+}
+.main-section__info p {
+  margin-top: -1.7rem;
+  padding-bottom: 3.5rem;
+  letter-spacing: 0.03em;
+  font-size: smaller;
+  color: rgba(240, 248, 255, 0.883);
+}
+#orange {
+  color: #fb7c2f;
+}
