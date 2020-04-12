@@ -1,0 +1,51 @@
+.footer-section__subscrition .footer-title {
+  font-family: OpenSans;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.25;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.footer-section__subscrition .footer-title .half-title {
+  color: #fa7c30;
+}
+
+.footer-section__subscrition .footer-paragraph {
+  font-family: OpenSans;
+  font-size: 14px;
+  line-height: 2.14;
+  color: rgba(255, 255, 255, 0.7);
+  margin: 50px 0;
+}
+
+.footer-section__subscrition .footer-section__social-links {
+  display: flex;
+}
+
+.footer-section__subscrition .footer-section__social-links .social-links-title {
+  font-family: OpenSans;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #ffffff;
+}
+
+.footer-section__subscrition .footer-section__social-links .social-media-link {
+  color: #ffffff;
+  margin-left: 10px;
+  font-size: 16px;
+}
+.footer-section__subscrition
+  .footer-section__social-links
+  .social-media-link
+  :hover {
+  color: #fa7c30;
+}
+
+.footer-section__subscrition .footer-section__social-links .social-links-list {
+  display: inline-flex;
+}
+.footer-section__subscrition .footer-section__subscribe {
+  display: flex;
+  margin: 10px 0;
+}
