@@ -289,19 +289,10 @@ textarea {
  * 2. Remove the padding in IE 10.
  */
 
-<<<<<<< HEAD:dist/assests/css/style.css
-[type="checkbox"],
-[type="radio"] {
-  box-sizing: border-box;
-  /* 1 */
-  padding: 0;
-  /* 2 */
-=======
 [type='checkbox'],
 [type='radio'] {
   box-sizing: border-box; /* 1 */
   padding: 0; /* 2 */
->>>>>>> origin/master:dist/assests/css/normalize.css
 }
 
 /**
@@ -318,17 +309,9 @@ textarea {
  * 2. Correct the outline style in Safari.
  */
 
-<<<<<<< HEAD:dist/assests/css/style.css
-[type="search"] {
-  -webkit-appearance: textfield;
-  /* 1 */
-  outline-offset: -2px;
-  /* 2 */
-=======
 [type='search'] {
   -webkit-appearance: textfield; /* 1 */
   outline-offset: -2px; /* 2 */
->>>>>>> origin/master:dist/assests/css/normalize.css
 }
 
 /**
@@ -389,7 +372,6 @@ template {
   display: none;
 }
 
-<<<<<<< HEAD:dist/assests/css/style.css
 /* expert trainers section */
 
 .trainers-section {
@@ -429,7 +411,6 @@ template {
   margin: .6rem;
   font-size: .9rem;
 }
-=======
 /* Start Personal Training Section Style*/
 .personal-training {
   background-image: url(../img/image-personal-trainer.jpg);
@@ -466,4 +447,3 @@ template {
   margin: 40px;
   padding: 15px;
 }
->>>>>>> origin/master:dist/assests/css/normalize.css
