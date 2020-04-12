@@ -1,42 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assests/css/styles.css" />
-    <title>Fitness</title>
-  </head>
-  <body>
-    <!-- Main section -->
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./assests/css/styles.css" />
+  <title>Fitness</title>
+</head>
+
+<body>
+ <!-- Main section -->
     <main class="main-section">
       <header class="main-header">
         <nav class="main-header__nav">
           <div class="nav__navigation left">
             <span class="logo">
-              FITNESS
+              <a href="#">FITNE<span class="orange">SS</span></a>
             </span>
             <ul class="nav-links">
-              <li>link</li>
-              <li>link</li>
-              <li>link</li>
-              <li>link</li>
-              <li>link</li>
+              <li><a href="#">HOME</a></li>
+              <li><a href="#">ABOUT US</a></li>
+              <li><a href="#">PAGE</a></li>
+              <li><a href="#">BLOG</a></li>
+              <li><a href="#">CONTACTS</a></li>
             </ul>
           </div>
           <div class="nav__login right">
             <ul>
-              <li>Login</li>
-              <li>Sign Up</li>
-              <li><button class="btn">button</button></li>
+              <li><a href="#">LOGIN</a></li>
+              <li><a href="#">SIGN UP</a></li>
+              <li class="btn btn2"><a href="#">CHOOSE PLAN</a></li>
             </ul>
           </div>
         </nav>
+          <ul class="show">
+            <li><i class="fas fa-bars fa-lg"></i></li>
+        </ul>
       </header>
 
       <div class="main-section__info">
-        <h1>Make Your Body Beautiful</h1>
-        <p>Lorem ipsum dolor sit amet.</p>
-        <button class="btn btn-primary">Book Now</button>
+         <h1>MAKE YOUR BODY <br /><span id="orange">BEAUTIFUL</span></h1>
+        <p>lorem Ipsem dolor sit amet. consectetur</p>
+        <button class="btn btn-primary">BOOK NOW</button>
+      </div>
+    </main>
+
+  <!-- Booking Section -->
+  <section class="booking-section">
+    <div class="container wrapper">
+      <div class="booking-section__img">
+        <img src="./assests/img/image1.jpg" alt="Booking Image">
+      </div>
+      <form class="booking-section__form">
+        Booking Form
+      </form>
+    </div>
+  </section>
+
+  <!-- Welcom Section -->
+  <seciont class="welcom-section">
+    <div class="welcom-section__wrapper">
+      <div class="welcom-section__text">
+        <h2>Welcom to fitness</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique accusamus eligendi quaerat fugit suscipit
+          quam eveniet officiis commodi unde praesentium?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius minus nisi amet magni temporibus nemo odit
+          deserunt error officiis architecto!</p>
+        <button class="btn btn-primary">get in touch</button>
+      </div>
+      <div class="welcom-section__img">
+        <img src="./assests/img/image2.jpg" alt="Welcom Image">
       </div>
     </main>
 
