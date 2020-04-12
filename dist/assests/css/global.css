@@ -53,3 +53,8 @@ ul {
   cursor: pointer;
   text-decoration: none;
 }
+
+.footer-section {
+  background-color: #161418;
+  color: #ffffff;
+}
