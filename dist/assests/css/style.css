@@ -2,7 +2,7 @@
 font family: Open Sans
 buttons color: #fa7c30
 */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -13,7 +13,9 @@ body {
   font-family: "Open Sans";
 }
 
-section, main, footer {
+section,
+main,
+footer {
   height: 100vh;
 }
 
@@ -57,7 +59,8 @@ ul {
 .main-header__nav .right {
   margin-right: 2rem;
 }
-.main-header__nav ul, .main-header__nav ul li {
+.main-header__nav ul,
+.main-header__nav ul li {
   display: inline-block;
 }
 
@@ -95,7 +98,7 @@ ul {
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
- html {
+html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
@@ -261,7 +264,8 @@ textarea {
  */
 
 button,
-input { /* 1 */
+input {
+  /* 1 */
   overflow: visible;
 }
 
@@ -271,7 +275,8 @@ input { /* 1 */
  */
 
 button,
-select { /* 1 */
+select {
+  /* 1 */
   text-transform: none;
 }
 
@@ -442,7 +447,7 @@ template {
   background-color: #f1f4f6;
 }
 
-.booking-section .container {
+.booking-section > .container {
   width: 70%;
   background-color: white;
   height: 100%;
@@ -450,14 +455,15 @@ template {
   grid-template-columns: 1fr 2fr;
   grid-template-rows: 519px;
   transform: translateY(-200px);
+  box-shadow: 1rem 1rem 2rem rgba(22, 20, 24, 0.1);
 }
-
 
 .booking-section img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: 100% 100%;
+  box-shadow: 0.5rem 0rem 1.5rem rgba(22, 20, 24, 0.1);
 }
 
 .booking-section form {
@@ -475,9 +481,8 @@ template {
   transform: none;
 }
 
-
-.booking-section form h2,.booking-section form h3 {
-
+.booking-section form h2,
+.booking-section form h3 {
   font-weight: 700;
   text-transform: uppercase;
   text-align: center;
@@ -496,14 +501,13 @@ template {
 }
 
 .booking-section form .wrapper {
-  grid-template-columns: repeat(3, minmax(100px,1fr));
+  grid-template-columns: repeat(3, minmax(100px, 1fr));
   column-gap: 2rem;
   margin: 2rem auto;
 }
 
 .booking-section form .wrapper .border {
   border-bottom: 1px solid #161418;
-  
 }
 
 .booking-section form .wrapper input,
@@ -512,13 +516,16 @@ template {
   width: 100%;
   border: none;
   font-size: 14px;
-  padding-top: .3rem;
-  padding-bottom: .6rem;
-  color: 1rgba(22, 20, 24, 0.7);
+  padding-top: 0.3rem;
+  padding-bottom: 0.6rem;
+  color: 1rgba (22, 20, 24, 0.7);
   padding-left: 0;
   height: 100%;
 }
 
+.booking-section select option {
+  background-color: #f1f4f6;
+}
 
 .booking-section button {
   font-size: 14px;
@@ -533,4 +540,5 @@ template {
   border-radius: 0px;
   text-transform: uppercase;
   margin: 1rem auto;
+  cursor: pointer;
 }
