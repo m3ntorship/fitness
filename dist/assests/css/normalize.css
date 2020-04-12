@@ -380,7 +380,7 @@ template {
 }
 
 .trainers-section .highlited-text {
-  color: rgba(250, 124, 48, 255)
+  color: rgba(250, 124, 48, 255);
 }
 
 .trainers-section__wrapper {
@@ -402,48 +402,12 @@ template {
 }
 
 .trainers-section__trainer p {
-  margin: .5rem 0;
+  margin: 0.5rem 0;
 }
 
 .trainers-section__trainer .training-type {
   text-transform: uppercase;
   display: inline-block;
-  margin: .6rem;
-  font-size: .9rem;
-}
-/* Start Personal Training Section Style*/
-.personal-training {
-  background-image: url(../img/image-personal-trainer.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 450px;
-  margin: 20px auto;
-}
-
-.personal-training .personal-training__container {
-  margin: 10px auto;
-  text-align: center;
-  color: #fff;
-}
-
-.personal-training .personal-training__container h3 {
-  font-size: 37px;
-  font-weight: 400;
-  line-height: 2;
-}
-
-.personal-training .personal-training__container h2 {
-  font-size: 60px;
-  font-weight: 700;
-  line-height: 1;
-}
-
-.personal-training .personal-training__container button {
-  background-color: #fa7c30;
-  letter-spacing: 1px;
-  margin: 40px;
-  padding: 15px;
+  margin: 0.6rem;
+  font-size: 0.9rem;
 }
