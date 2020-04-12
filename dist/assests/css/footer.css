@@ -1,0 +1,89 @@
+/* Blogs section styling */
+
+.footer-section__blogs {
+  width: 500px; /* temp property */
+  margin: 1.2em;
+  padding: 1.5em;
+}
+.footer-section__blogs h3 {
+  margin-bottom: 2em;
+}
+
+.footer-section__blogs .blog-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  margin-bottom: 25px;
+}
+
+.blog-container {
+  display: flex;
+}
+
+.blog-container img {
+  width: 120px;
+  height: 80px;
+}
+
+.blog-title-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  padding-left: 20px;
+}
+
+.blog-title {
+  line-height: 1.8em;
+}
+
+/* Subscribtion section */
+
+.footer-section__subscrition .footer-title {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.25;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.footer-section__subscrition .footer-title .half-title {
+  color: #fa7c30;
+}
+
+.footer-section__subscrition .footer-paragraph {
+  font-size: 14px;
+  line-height: 2.14;
+  color: rgba(255, 255, 255, 0.7);
+  margin: 50px 0;
+}
+
+.footer-section__subscrition .footer-section__social-links {
+  display: flex;
+}
+
+.footer-section__subscrition .footer-section__social-links .social-links-title {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #ffffff;
+}
+
+.footer-section__subscrition .footer-section__social-links .social-media-link {
+  color: #ffffff;
+  margin-left: 10px;
+  font-size: 16px;
+}
+.footer-section__subscrition
+  .footer-section__social-links
+  .social-media-link
+  :hover {
+  color: #fa7c30;
+}
+
+.footer-section__subscrition .footer-section__social-links .social-links-list {
+  display: inline-flex;
+}
+.footer-section__subscrition .footer-section__subscribe {
+  display: flex;
+  margin: 10px 0;
+}
