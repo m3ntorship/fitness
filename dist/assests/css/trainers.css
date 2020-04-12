@@ -44,3 +44,7 @@
   font-weight: bold;
   font-size: 0.875;
 }
+
+.trainers-section__trainer-img {
+  max-width: 100%;
+}
