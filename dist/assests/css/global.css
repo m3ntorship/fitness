@@ -9,7 +9,7 @@ font family: Open Sans
 buttons color: #fa7c30
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -20,18 +20,13 @@ body {
   font-family: 'Open Sans';
 }
 
-section,
-main,
-footer {
-  height: 100vh;
-}
-
 ul {
   list-style: none;
 }
 
 .container {
   max-width: 1200px;
+  width: 70%;
   margin: auto;
 }
 
@@ -48,9 +43,18 @@ ul {
   font-size: 14px;
   font-weight: bold;
   text-transform: uppercase;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .btn-primary {
   background-color: #fa7c30;
   letter-spacing: 1px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.footer-section {
+  background-color: #161418;
+  color: #ffffff;
 }
