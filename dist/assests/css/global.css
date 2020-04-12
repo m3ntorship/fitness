@@ -1,0 +1,56 @@
+/*
+
+  THIS FILE IS FOR PAGE LAYOUT AND GLOBAL STYLES ONLY
+
+*/
+
+/*
+font family: Open Sans
+buttons color: #fa7c30
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans';
+}
+
+section,
+main,
+footer {
+  height: 100vh;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 2rem;
+}
+
+.btn {
+  border: none;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.btn-primary {
+  background-color: #fa7c30;
+  letter-spacing: 1px;
+}

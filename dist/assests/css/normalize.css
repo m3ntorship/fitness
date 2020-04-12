@@ -1,93 +1,3 @@
-/*
-font family: Open Sans
-buttons color: #fa7c30
-*/
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: "Open Sans";
-}
-
-section,
-main,
-footer {
-  height: 100vh;
-}
-
-ul {
-  list-style: none;
-}
-
-.container {
-  max-width: 1200px;
-  margin: auto;
-}
-
-.wrapper {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-column-gap: 2rem;
-}
-
-.btn {
-  border: none;
-  padding: 0.5rem 1rem;
-  color: #fff;
-  font-size: 14px;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
-.btn-primary {
-  background-color: #fa7c30;
-  letter-spacing: 1px;
-}
-
-/* Main Section, Header, Nav */
-.main-header .main-header__nav {
-  display: flex;
-  justify-content: space-between;
-}
-.main-header__nav .left {
-  margin-left: 2rem;
-}
-.main-header__nav .right {
-  margin-right: 2rem;
-}
-.main-header__nav ul,
-.main-header__nav ul li {
-  display: inline-block;
-}
-
-/* Booking Section */
-.booking-section .wrapper {
-  display: grid;
-  grid-template-columns: 1fr 3fr;
-}
-
-/* Welcom Section */
-.welcom-section__wrapper {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
-
-/* Training Programs Section */
-.training-programs__wrapper {
-  text-align: center;
-}
-
-/* Promotions Section */
-.promotions-section__wrapper {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  text-align: center;
-}
-
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
@@ -285,9 +195,9 @@ select {
  */
 
 button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
+[type='button'],
+[type='reset'],
+[type='submit'] {
   -webkit-appearance: button;
 }
 
@@ -296,9 +206,9 @@ button,
  */
 
 button::-moz-focus-inner,
-[type="button"]::-moz-focus-inner,
-[type="reset"]::-moz-focus-inner,
-[type="submit"]::-moz-focus-inner {
+[type='button']::-moz-focus-inner,
+[type='reset']::-moz-focus-inner,
+[type='submit']::-moz-focus-inner {
   border-style: none;
   padding: 0;
 }
@@ -308,9 +218,9 @@ button::-moz-focus-inner,
  */
 
 button:-moz-focusring,
-[type="button"]:-moz-focusring,
-[type="reset"]:-moz-focusring,
-[type="submit"]:-moz-focusring {
+[type='button']:-moz-focusring,
+[type='reset']:-moz-focusring,
+[type='submit']:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
 
@@ -359,8 +269,8 @@ textarea {
  * 2. Remove the padding in IE 10.
  */
 
-[type="checkbox"],
-[type="radio"] {
+[type='checkbox'],
+[type='radio'] {
   box-sizing: border-box; /* 1 */
   padding: 0; /* 2 */
 }
@@ -369,8 +279,8 @@ textarea {
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
 
-[type="number"]::-webkit-inner-spin-button,
-[type="number"]::-webkit-outer-spin-button {
+[type='number']::-webkit-inner-spin-button,
+[type='number']::-webkit-outer-spin-button {
   height: auto;
 }
 
@@ -379,7 +289,7 @@ textarea {
  * 2. Correct the outline style in Safari.
  */
 
-[type="search"] {
+[type='search'] {
   -webkit-appearance: textfield; /* 1 */
   outline-offset: -2px; /* 2 */
 }
@@ -388,7 +298,7 @@ textarea {
  * Remove the inner padding in Chrome and Safari on macOS.
  */
 
-[type="search"]::-webkit-search-decoration {
+[type='search']::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
@@ -438,107 +348,4 @@ template {
 
 [hidden] {
   display: none;
-}
-
-/* Booking Section */
-
-.booking-section {
-  height: 519px;
-  background-color: #f1f4f6;
-}
-
-.booking-section > .container {
-  width: 70%;
-  background-color: white;
-  height: 100%;
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  grid-template-rows: 519px;
-  transform: translateY(-200px);
-  box-shadow: 1rem 1rem 2rem rgba(22, 20, 24, 0.1);
-}
-
-.booking-section img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: 100% 100%;
-  box-shadow: 0.5rem 0rem 1.5rem rgba(22, 20, 24, 0.1);
-}
-
-.booking-section form {
-  display: flex;
-  align-items: center;
-  height: 100%;
-}
-.booking-section form .container {
-  width: 70%;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  justify-content: center;
-  transform: none;
-}
-
-.booking-section form h2,
-.booking-section form h3 {
-  font-weight: 700;
-  text-transform: uppercase;
-  text-align: center;
-  margin: 1.5rem auto;
-}
-.booking-section form h2 {
-  font-size: 36px;
-}
-
-.booking-section form h3 {
-  font-size: 26px;
-}
-
-.booking-section form .inputs {
-  margin: 1rem auto;
-}
-
-.booking-section form .wrapper {
-  grid-template-columns: repeat(3, minmax(100px, 1fr));
-  column-gap: 2rem;
-  margin: 2rem auto;
-}
-
-.booking-section form .wrapper .border {
-  border-bottom: 1px solid #161418;
-}
-
-.booking-section form .wrapper input,
-.booking-section form .wrapper select {
-  outline-style: none;
-  width: 100%;
-  border: none;
-  font-size: 14px;
-  padding-top: 0.3rem;
-  padding-bottom: 0.6rem;
-  color: 1rgba (22, 20, 24, 0.7);
-  padding-left: 0;
-  height: 100%;
-}
-
-.booking-section select option {
-  background-color: #f1f4f6;
-}
-
-.booking-section button {
-  font-size: 14px;
-  padding: 1rem 2.5rem;
-  border: none;
-  color: white;
-  background-color: #fa7c30;
-  font-weight: 600;
-  margin: 0 auto;
-  text-align: center;
-  letter-spacing: 1.4px;
-  border-radius: 0px;
-  text-transform: uppercase;
-  margin: 1rem auto;
-  cursor: pointer;
 }
