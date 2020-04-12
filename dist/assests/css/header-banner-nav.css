@@ -82,3 +82,74 @@
 #orange {
   color: #fb7c2f;
 }
+
+.btn-primary{
+  padding: 0.6rem;
+}
+/* ============================== Media queries ====================================== */
+
+/* for tablets */
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .main-section__info {
+    top: 33%;
+    left: 5%;
+    width: auto;
+  }
+  .main-section__info h1 {
+    font-size: 7vw;
+    font-weight: 700;
+  }
+  .main-header__nav {
+    justify-content: space-around;
+  }
+  .main-header__nav ul,
+  .main-header__nav ul li {
+    display: none;
+  }
+  .showBar {
+    display: block;
+    cursor: pointer;
+    margin-right: 1.6rem;
+    color: white;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+   .main-header__nav ul,
+  .main-header__nav ul li {
+    display: none;
+  }
+  .showBar i{
+    display: block;
+    cursor: pointer;
+    margin-right: 1.6rem;
+    color: white;
+  }
+  .main-section__info h1 {
+    font-size: 14vw;
+    font-weight: 700;
+  }
+  .btn {
+    width: 80%;
+    margin: auto;
+    display: block;
+  }
+  .main-section__info {
+    display: block;
+    text-align: center;
+    top: 30%;
+    left: auto;
+  }
+  .main-header__nav ul {
+    padding: 0 0 0 1rem;
+  }
+  .main-header__nav {
+    justify-content: space-between;
+    background-color: transparent;
+    color: white;
+    letter-spacing: 0.1em;
+    padding: 1.5rem 0;
+  }
+}
