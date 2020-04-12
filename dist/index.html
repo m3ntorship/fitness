@@ -3,9 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ="
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="./assests/css/styles.css" />
     <title>Fitness</title>
   </head>
+
   <body>
     <!-- Main section -->
     <main class="main-section">
@@ -131,8 +138,8 @@
     <section class="personal-training">
       <div class="overlay"></div>
       <div class="personal-training__container">
-        <h3>We Trained With</h3>
-        <h2>personal trainer</h2>
+        <h2>We Trained With</h2>
+        <h3>personal trainer</h3>
         <button class="btn btn-primary">get in touch</button>
       </div>
     </section>
@@ -188,63 +195,174 @@
         </div>
       </div>
     </section>
+    <div class="promotion-contact-flexwrapper">
+      <!-- Promotions Section -->
+      <section class="promotions-section">
+        <h2 class="promotion-header">try for free</h2>
+        <p class="promotion-p">free 5 days pass</p>
+        <button class="btn btn-primary">get in touch</button>
+      </section>
 
-    <!-- Promotions Section -->
-    <section class="promotions-section">
-      <div class="promotions-section__wrapper">
-        <div class="promotions-section__promotion">
-          <h2>try for free</h2>
-          <h3>free 5 days pass</h3>
-          <button class="btn btn-primary">get in touch</button>
-        </div>
-        <div class="promotions-section__contact">
-          <h2>call us and try</h2>
-          <h3>957 547 4545</h3>
-          <button class="btn btn-primary">get in touch</button>
-        </div>
-      </div>
-    </section>
+      <!-- Contact us Section -->
+      <section class="contact-section">
+        <h2 class="contact-header">call us and try</h2>
+        <p class="contact-number">957 547 4545</p>
+        <button class="btn btn-primary">get in touch</button>
+      </section>
+    </div>
 
     <!-- Footer Section -->
     <footer class="footer-section">
-      <div class="footer-section__wrapper wrapper">
+      <div class="footer-section__wrapper wrapper container">
         <div class="footer-section__subscrition">
-          <h2>Fitness</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ad amet,
-            eaque, distinctio temporibus nihil, animi ullam expedita natus magni
-            dolores! Voluptas ipsa nesciunt laborum ea ducimus repudiandae eius
-            praesentium.
+          <h2 class="footer-title">Fitne<span class="half-title">ss</span></h2>
+          <p class="footer-paragraph">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur.
           </p>
           <div class="footer-section__social-links">
-            <span>follow us</span>
-            <ul>
-              <li>facebook</li>
-              <li>twitter</li>
-              <li>instagram</li>
-              <li>pinterest</li>
-              <li>google +</li>
-              <li>youtube</li>
-              <li>not reddit</li>
-              <li>tumblr</li>
+            <span class="social-links-title">Follow Us: </span>
+            <ul class="social-links-list">
+              <li>
+                <a
+                  href="https://www.facebook.com"
+                  target="_blank"
+                  referrerpolicy="no-referrer"
+                  class="social-media-link"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.twitter.com"
+                  target="_blank"
+                  referrerpolicy="no-referrer"
+                  class="social-media-link"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com"
+                  target="_blank"
+                  referrerpolicy="no-referrer"
+                  class="social-media-link"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.pinterest.com"
+                  target="_blank"
+                  referrerpolicy="no-referrer"
+                  class="social-media-link"
+                  ><i class="fab fa-pinterest-p"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.pinterest.com"
+                  target="_blank"
+                  referrerpolicy="no-referrer"
+                  class="social-media-link"
+                  ><i class="fab fa-google-plus-g"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.pinterest.com"
+                  target="_blank"
+                  referrerpolicy="no-referrer"
+                  class="social-media-link"
+                  ><i class="fab fa-youtube"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.website.com"
+                  target="_blank"
+                  referrerpolicy="no-referrer"
+                  class="social-media-link"
+                  ><i class="fas fa-globe"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.tumblr.com"
+                  target="_blank"
+                  referrerpolicy="no-referrer"
+                  class="social-media-link"
+                  ><i class="fab fa-tumblr"></i
+                ></a>
+              </li>
             </ul>
           </div>
+          <form class="footer-section__subscribe">
+            <input type="email" name="subscribe" placeholder="Your Email..." />
+            <button class="btn btn-primary" type="submit">subscribe</button>
+          </form>
         </div>
         <div class="footer-section__blogs">
-          Blog Posts
+          <h3>BLOGS</h3>
+          <a
+            href="https://www.m3ntorship.com"
+            target="_blank"
+            class="blog-link"
+          >
+            <div class="blog-container">
+              <div class="blog-img-container">
+                <img src="assests/img/blogs/blogs1.jpg" alt="bolg post photo" />
+              </div>
+              <div class="blog-title-wrapper">
+                <p class="blog-title">
+                  This is a blog post about fitness and, This is a blog post
+                  about fitness and.
+                </p>
+              </div>
+            </div>
+          </a>
+          <a
+            href="https://www.m3ntorship.com"
+            target="_blank"
+            class="blog-link"
+          >
+            <div class="blog-container">
+              <div class="blog-img-container">
+                <img src="assests/img/blogs/blogs2.jpg" alt="bolg post photo" />
+              </div>
+              <div class="blog-title-wrapper">
+                <p class="blog-title">
+                  This is a blog post about fitness and, This is a blog post
+                  about fitness and.
+                </p>
+              </div>
+            </div>
+          </a>
+          <a
+            href="https://www.m3ntorship.com"
+            target="_blank"
+            class="blog-link"
+          >
+            <div class="blog-container">
+              <div class="blog-img-container">
+                <img src="assests/img/blogs/blogs3.jpg" alt="bolg post photo" />
+              </div>
+              <div class="blog-title-wrapper">
+                <p class="blog-title">
+                  This is a blog post about fitness and, This is a blog post
+                  about fitness and.
+                </p>
+              </div>
+            </div>
+          </a>
         </div>
         <div class="footer-section__feed">
           instagram or twitter news feed
         </div>
-        <form class="footer-section__subscribe">
-          <input
-            type="email"
-            name="subscribe"
-            placeholder="Your Email..."
-            id="footer-section__subscribe"
-          />
-          <button class="btn btn-primary" type="submit">subscribe</button>
-        </form>
       </div>
 
       <div class="footer-section__credits">
