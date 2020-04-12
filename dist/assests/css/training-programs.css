@@ -1,4 +1,12 @@
 /* Training Programs Section */
+.training-programs__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.trainging-programs__program:not(:last-child) {
+  margin-right: 35px;
+}
 
 .training-programs__heading h2 {
   text-transform: uppercase;
