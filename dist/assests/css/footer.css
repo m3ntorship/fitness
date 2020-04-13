@@ -92,17 +92,16 @@
 
 .footer-section__feed .img_row {
   margin: -0.2em 0em;
+  padding-left: 0.3em;
 }
 .footer-section__feed .img_row img {
-  max-width: 33%;
+  max-width: 30%;
   max-height: 100%;
+  margin-left: -0.25em;
 }
 .footer-section__feed .header {
   margin: 3em 0em;
 }
 .footer-section__feed .options {
   margin-top: 0.5em;
-}
-.footer-section__feed .img_row img {
-  margin: 0 -0.15em;
 }
