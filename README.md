@@ -6,21 +6,22 @@ Fitness Project Contributors:
 
 Mentors: 
 
-- Ahemd Ayoub: https://github.com/Nilegfx
-- 
+- Ahmed Ayoub: https://github.com/Nilegfx
+- Ahmed Al-Obaidi: https://github.com/muubar
 
 Mentees:
 
-- abdalla-elmahdy: https://github.com/abdalla-elmahdy
-- abdallahalaa21: https://github.com/abdallahalaa21
-- AbdoMgdy: https://github.com/AbdoMgdy
+- Abdulrahman Elhaw: https://github.com/elhaw
 - AbudZohair: https://github.com/AbudZohair
-- ahmedsamir96m: https://github.com/ahmedsamir96m
-- elhaw: https://github.com/elhaw
-- MoHassn: https://github.com/MoHassn
-- MAlngaawy: https://github.com/MAlngaawy
+- Abdul-Rahman Magdy: https://github.com/AbdoMgdy
+- Abdalla Elmahdy: https://github.com/abdalla-elmahdy
+- Abdullah alaa: https://github.com/abdallahalaa21
+- Ahmad Samir: https://github.com/ahmedsamir96m
+- Mohammed Alngaawy: https://github.com/MAlngaawy
+- Mohamed Hassan: https://github.com/MoHassn
+- Mohamed Mahsoub: https://github.com/Mohmmed-Mahsoub
+- shimaaabdelshafy: https://github.com/shimaaabdelshafy
 - Tramsi: https://github.com/Tramsi
-- zahraa-khalil: https://github.com/zahraa-khalil
+- Zahraa-Khalil: https://github.com/zahraa-khalil
 
-
-State: in progress... 
+status: in progress... 
