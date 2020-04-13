@@ -1,16 +1,3 @@
-<<<<<<< HEAD
-.feed_row {
-  margin: -0.25rem;
-}
-.row_header {
-  margin-bottom: 3rem;
-}
-.feed_options {
-  margin-top: 0.5rem;
-}
-.feed_row img {
-  margin: 0 -0.15rem;
-=======
 /* Blogs section styling */
 
 .footer-section__blogs {
@@ -99,5 +86,19 @@
 .footer-section__subscrition .footer-section__subscribe {
   display: flex;
   margin: 10px 0;
->>>>>>> a77b05d1a434cd65bca23b422cb0dbcb82de78cf
+}
+
+/* Instagram Section Styling */
+
+.footer-section__feed .img_row {
+  margin: -0.25rem;
+}
+.footer-section__feed .header {
+  margin-bottom: 3rem;
+}
+.footer-section__feed .options {
+  margin-top: 0.5rem;
+}
+.footer-section__feed .img_row img {
+  margin: 0 -0.15rem;
 }
