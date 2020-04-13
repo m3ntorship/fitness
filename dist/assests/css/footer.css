@@ -91,14 +91,18 @@
 /* Instagram Section Styling */
 
 .footer-section__feed .img_row {
-  margin: -0.25rem;
-}
-.footer-section__feed .header {
-  margin-bottom: 3rem;
-}
-.footer-section__feed .options {
-  margin-top: 0.5rem;
+  margin: -0.2em 0em;
 }
 .footer-section__feed .img_row img {
-  margin: 0 -0.15rem;
+  max-width: 33%;
+  max-height: 100%;
+}
+.footer-section__feed .header {
+  margin: 3em 0em;
+}
+.footer-section__feed .options {
+  margin-top: 0.5em;
+}
+.footer-section__feed .img_row img {
+  margin: 0 -0.15em;
 }
