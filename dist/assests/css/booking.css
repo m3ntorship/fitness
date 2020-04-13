@@ -1,13 +1,13 @@
 /* Booking Section */
 
 .booking-section {
-  height: 519px;
+  height: 419px;
   background-color: #f1f4f6;
 }
 
 .booking-section__wrapper {
   background-color: white;
-  height: 100%;
+  height: 519px;
   display: grid;
   grid-template-columns: minmax(0, 1fr) 2fr;
   grid-template-rows: 519px;
@@ -104,6 +104,7 @@
 @media screen and (max-width: 992px) {
   .booking-section__wrapper {
     grid-template-columns: 1fr;
+    height: auto;
   }
 
   .booking-section__img {
@@ -113,6 +114,10 @@
 
 @media screen and (max-width: 768px) {
   .booking-section {
+    height: auto;
+  }
+
+  .booking-section__wrapper {
     height: auto;
   }
 
