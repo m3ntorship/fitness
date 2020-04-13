@@ -3,14 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fitness</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;700;800&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
-      integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ="
-      crossorigin="anonymous"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
     />
     <link rel="stylesheet" href="./assests/css/styles.css" />
-    <title>Fitness</title>
   </head>
 
   <body>
@@ -18,31 +20,35 @@
     <main class="main-section">
       <header class="main-header">
         <nav class="main-header__nav">
-          <div class="nav__navigation left">
+          <div class="nav__navigation left-navigation">
             <span class="logo">
-              FITNESS
+              <a href="#">FITNE<span class="orange">SS</span></a>
             </span>
             <ul class="nav-links">
-              <li>link</li>
-              <li>link</li>
-              <li>link</li>
-              <li>link</li>
-              <li>link</li>
+              <li><a href="#">HOME</a></li>
+              <li><a href="#">ABOUT US</a></li>
+              <li><a href="#">PAGE</a></li>
+              <li><a href="#">BLOG</a></li>
+              <li><a href="#">CONTACTS</a></li>
             </ul>
           </div>
-          <div class="nav__login right">
+          <div class="nav__login right-navigation">
             <ul>
-              <li>Login</li>
-              <li>Sign Up</li>
-              <li><button class="btn">button</button></li>
+              <li><a href="#">LOGIN</a></li>
+              <li><a href="#">SIGN UP</a></li>
+              <li class="btn btn-secondary">CHOOSE PLAN</li>
             </ul>
+          </div>
+          <div class="hambergur-bar">
+            <i class="fas fa-bars fa-2x"></i>
           </div>
         </nav>
+           
       </header>
       <div class="main-section__info">
-        <h1>Make Your Body Beautiful</h1>
-        <p>Lorem ipsum dolor sit amet.</p>
-        <button class="btn btn-primary">Book Now</button>
+        <h1>MAKE YOUR BODY <br /><span class="orange">BEAUTIFUL</span></h1>
+        <p>lorem Ipsem dolor sit amet. consectetur</p>
+        <button class="btn btn-primary">BOOK NOW</button>
       </div>
     </main>
 
@@ -167,8 +173,9 @@
             facilis!
           </p>
         </div>
-
+        <div class="training-programs__wrapper wrapper">
         <div class="training-programs__wrapper">
+
           <div class="trainging-programs__program">
             <img
               src="./assests/img/categories/image-category2.jpg"
@@ -336,7 +343,7 @@
                   referrerpolicy="no-referrer"
                   class="social-media-link"
                   ><i class="fab fa-facebook-f"></i
-                ></a>
+                ></CHOOSE>
               </li>
               <li>
                 <a
@@ -485,6 +492,21 @@
             <a href="#">View More Photos..</a>
           </div>
         </div>
+        <div class="footer-section__blogs">
+          Blog Posts
+        </div>
+        <div class="footer-section__feed">
+          instagram or twitter news feed
+        </div>
+        <form class="footer-section__subscribe">
+          <input
+            type="email"
+            name="subscribe"
+            placeholder="Your Email..."
+            id="footer-section__subscribe"
+          />
+          <button class="btn btn-primary" type="submit">subscribe</button>
+        </form>
       </div>
 
       <div class="footer-section__credits">
