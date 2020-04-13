@@ -39,7 +39,6 @@
           </div>
         </nav>
       </header>
-
       <div class="main-section__info">
         <h1>Make Your Body Beautiful</h1>
         <p>Lorem ipsum dolor sit amet.</p>
@@ -134,73 +133,89 @@
     <!-- Welcom Section -->
     <seciont class="welcom-section">
       <div class="welcom-section__wrapper">
-        <div class="welcom-section__text">
-          <h2>Welcom to fitness</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
-            accusamus eligendi quaerat fugit suscipit quam eveniet officiis
-            commodi unde praesentium?
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius minus
-            nisi amet magni temporibus nemo odit deserunt error officiis
-            architecto!
-          </p>
-          <button class="btn btn-primary">get in touch</button>
-        </div>
-        <div class="welcom-section__img">
-          <img src="./assests/img/image2.jpg" alt="Welcom Image" />
+        <div class="container">
+          <div class="welcom-section__text">
+            <div class="text-cont">
+              <h2>welcome to <span>fitness</span></h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Similique accusamus eligendi quaerat fugit suscipit quam eveniet
+                officiis commodi unde praesentium?
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+                minus nisi amet magni temporibus nemo odit deserunt error
+                officiis architecto!
+              </p>
+              <button class="btn btn-primary">get in touch</button>
+            </div>
+          </div>
+          <div class="welcom-section__img">
+            <img src="assests/img/image2.png" alt="Welcom Image" />
+          </div>
         </div>
       </div>
     </seciont>
 
     <!-- Training Programs Section -->
-    <section class="training-programs">
+    <section class="training-programs section--py">
       <div class="container">
         <div class="training-programs__heading">
-          <h2>Welcom to fitness</h2>
+          <h2>welcome to <span>fitness</span></h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi,
             facilis!
           </p>
         </div>
 
-        <div class="training-programs__wrapper wrapper">
+        <div class="training-programs__wrapper">
           <div class="trainging-programs__program">
             <img
               src="./assests/img/categories/image-category2.jpg"
               alt="Training Porgram Image"
             />
-            <h3>Basic Crossfit</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Accusantium, similique minima.
-            </p>
-            <button class="btn btn-primary">Get in Touch</button>
+            <div class="training-programs__program-content">
+              <h3>Basic Crossfit</h3>
+              <p>
+                Our staff includes amazing professionals that have an eye for
+                crossfit.
+              </p>
+              <button class="btn btn-primary btn--getInTouch">
+                Get in Touch
+              </button>
+            </div>
           </div>
           <div class="trainging-programs__program">
             <img
-              src="./assests/img/categories/image-category2.jpg"
+              src="./assests/img/categories/image-category1.jpg"
               alt="Training Porgram Image"
             />
-            <h3>Basic Crossfit</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Accusantium, similique minima.
-            </p>
-            <button class="btn btn-primary">Get in Touch</button>
+            <div class="training-programs__program-content">
+              <h3>Fitness Studio</h3>
+              <p>
+                Work out in fitness groups or with a personal certified trainer
+                in our gym center.
+              </p>
+              <button class="btn btn-primary btn--getInTouch">
+                Get in Touch
+              </button>
+            </div>
           </div>
           <div class="trainging-programs__program">
             <img
-              src="./assests/img/categories/image-category2.jpg"
+              src="./assests/img/categories/image-category3.jpg"
               alt="Training Porgram Image"
             />
-            <h3>Basic Crossfit</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Accusantium, similique minima.
-            </p>
-            <button class="btn btn-primary">Get in Touch</button>
+            <div class="training-programs__program-content">
+              <h3>Yoga Classes</h3>
+              <p>
+                What do you think about yoga? If you have a passion for it,
+                we’ve got a special program.
+              </p>
+              <button class="btn btn-primary btn--getInTouch">
+                Get in Touch
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -209,8 +224,8 @@
     <!-- Personal Training Section -->
     <section class="personal-training">
       <div class="personal-training__container">
-        <h2>We Trained With</h2>
-        <h3>personal trainer</h3>
+        <h3 class="small-header">We Trained With</h3>
+        <h2 class="big-header">personal trainer</h2>
         <button class="btn btn-primary">get in touch</button>
       </div>
     </section>
@@ -218,9 +233,12 @@
     <!-- Trainers Section -->
     <section class="trainers-section">
       <div class="container">
-        <div class="trainser-section__heading">
-          <h2>Expert Trainsers</h2>
-          <p>
+        <div class="trainers-section__heading">
+          <h2 class="trainers-section__title">
+            expert
+            <span class="trainers-section__highlited-text"> trainers</span>
+          </h2>
+          <p class="trainers-section__intro">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid,
             ad!
           </p>
@@ -229,36 +247,48 @@
         <div class="trainers-section__wrapper wrapper">
           <div class="trainers-section__trainer">
             <img
-              src="./assests/img/expert-trainers/image-trainer-1.jpg"
+              class="trainers-section__trainer-img"
+              src="./assests/img/expert-trainers/image-trainer-1.png"
               alt="Trainer Image"
             />
-            <h3>Sarra Miller</h3>
-            <span>Spinning Trainer</span>
-            <p>
+            <h3 class="trainers-section__trainer-name">Sarra Miller</h3>
+            <span
+              class="trainers-section__highlited-text trainers-section__training-type"
+              >Spinning Trainer</span
+            >
+            <p class="trainers-section__describtion">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Distinctio, ad.
             </p>
           </div>
           <div class="trainers-section__trainer">
             <img
-              src="./assests/img/expert-trainers/image-trainer-1.jpg"
+              class="trainers-section__trainer-img"
+              src="./assests/img/expert-trainers/image-trainer-2.png"
               alt="Trainer Image"
             />
-            <h3>Sarra Miller</h3>
-            <span>Spinning Trainer</span>
-            <p>
+            <h3 class="trainers-section__trainer-name">Sarra Miller</h3>
+            <span
+              class="trainers-section__highlited-text trainers-section__training-type"
+              >bootcamp Trainer</span
+            >
+            <p class="trainers-section__describtion">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Distinctio, ad.
             </p>
           </div>
           <div class="trainers-section__trainer">
             <img
-              src="./assests/img/expert-trainers/image-trainer-1.jpg"
+              class="trainers-section__trainer-img"
+              src="./assests/img/expert-trainers/image-trainer-3.png"
               alt="Trainer Image"
             />
-            <h3>Sarra Miller</h3>
-            <span>Spinning Trainer</span>
-            <p>
+            <h3 class="trainers-section__trainer-name">Sarra Miller</h3>
+            <span
+              class="trainers-section__highlited-text trainers-section__training-type"
+              >Spinning Trainer</span
+            >
+            <p class="trainers-section__describtion">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Distinctio, ad.
             </p>
@@ -266,6 +296,7 @@
         </div>
       </div>
     </section>
+
     <div class="promotion-contact-flexwrapper">
       <!-- Promotions Section -->
       <section class="promotions-section">
@@ -432,12 +463,32 @@
           </a>
         </div>
         <div class="footer-section__feed">
-          instagram or twitter news feed
+          <div class="header">
+            <h3>INSTAGRAM</h3>
+          </div>
+          <div class="img_row">
+            <img src="assests/img/instagram/insta1.jpg" alt="Insta Pic" />
+            <img src="assests/img/instagram/insta2.jpg" alt="Insta Pic" />
+            <img src="assests/img/instagram/insta3.jpg" alt="Insta Pic" />
+          </div>
+          <div class="img_row">
+            <img src="assests/img/instagram/insta4.jpg" alt="Insta Pic" />
+            <img src="assests/img/instagram/insta5.jpg" alt="Insta Pic" />
+            <img src="assests/img/instagram/insta6.jpg" alt="Insta Pic" />
+          </div>
+          <div class="img_row">
+            <img src="assests/img/instagram/insta7.jpg" alt="Insta Pic" />
+            <img src="assests/img/instagram/insta8.jpg" alt="Insta Pic" />
+            <img src="assests/img/instagram/insta9.jpg" alt="Insta Pic" />
+          </div>
+          <div class="options">
+            <a href="#">View More Photos..</a>
+          </div>
         </div>
       </div>
 
       <div class="footer-section__credits">
-        footer credits
+        <p>© 2018 free-PSD-template</p>
       </div>
     </footer>
   </body>
