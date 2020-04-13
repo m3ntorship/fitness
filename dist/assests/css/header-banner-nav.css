@@ -6,11 +6,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  width: 100%;
 }
-
 .main-header .main-header__nav {
-  /* background-color: blue; */
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -22,18 +19,19 @@
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 40;
+  z-index: 9999;
 }
-.main-header__nav .left {
+/* hamburger-item */
+.main-header__nav .left-navigation {
   margin-left: 2rem;
 }
-.main-header__nav .right {
+.main-header__nav .right-navigation {
   margin-right: 1rem;
 }
 .main-header__nav ul,
 .main-header__nav ul li {
   display: inline-block;
-  padding: 0.8rem 1rem;
+  padding: 0.8rem 0.5rem;
 }
 .main-header__nav ul,
 .main-header__nav ul li a {
@@ -43,19 +41,20 @@
 .logo a {
   text-decoration: none;
   color: white;
-  font-size: 20px;
+  font-size: 23px;
   font-weight: 700;
+  height: 200px;
+  width: 300px;
+  overflow: hidden;
+  margin-top: 2rem;
+  vertical-align: sub;
 }
 .logo span {
   color: #fb7c2f;
 }
-.btn2 {
+.btn-secondary {
   background-color: transparent;
-  cursor: pointer;
-  height: auto;
-  text-align: center;
   font-size: smaller;
-  width: auto;
   border: 1px solid white;
   letter-spacing: 0.2em;
 }
@@ -73,7 +72,7 @@
   font-weight: 700;
   line-height: 1.2em;
 }
-.show-bar{
+.show-bar {
   display: none;
 }
 .main-section__info p {
@@ -81,14 +80,25 @@
   padding-bottom: 3.5rem;
   letter-spacing: 0.03em;
   font-size: smaller;
-  color: rgba(240, 248, 255, 0.883);
+  color: rgba(240, 248, 255, 0.8);
 }
-#orange {
+.orange {
   color: #fb7c2f;
 }
 
-.btn-primary{
-  padding: 0.6rem;
+.btn-primary {
+  font-size: .7em;
+  padding: .8rem 1.4rem;
+}
+.btn-primary:hover {
+  background-color: #fb7d2fea;
+  color: white !important;
+}
+.btn:hover {
+  background-color: #fb7d2fea;
+}
+ul li a:hover {
+  color: #fb7c2f;
 }
 /* ============================== Media queries ====================================== */
 
@@ -121,13 +131,12 @@
   }
 }
 
-
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-   .main-header__nav ul,
+  .main-header__nav ul,
   .main-header__nav ul li {
     display: none;
   }
-  .show-bar{
+  .show-bar {
     display: block;
     cursor: pointer;
     margin-right: 1.6rem;

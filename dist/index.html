@@ -24,7 +24,7 @@
     <main class="main-section">
       <header class="main-header">
         <nav class="main-header__nav">
-          <div class="nav__navigation left">
+          <div class="nav__navigation left-navigation">
             <span class="logo">
               <a href="#">FITNE<span class="orange">SS</span></a>
             </span>
@@ -36,11 +36,11 @@
               <li><a href="#">CONTACTS</a></li>
             </ul>
           </div>
-          <div class="nav__login right hide">
+          <div class="nav__login right-navigation hide">
             <ul>
               <li><a href="#">LOGIN</a></li>
               <li><a href="#">SIGN UP</a></li>
-              <li class="btn btn2"><a href="#">CHOOSE PLAN</a></li>
+              <li class="btn btn-secondary">CHOOSE PLAN</li>
             </ul>
           </div>
           <div class="show-bar ">
@@ -49,9 +49,8 @@
         </nav>
            
       </header>
-
       <div class="main-section__info">
-        <h1>MAKE YOUR BODY <br /><span id="orange">BEAUTIFUL</span></h1>
+        <h1>MAKE YOUR BODY <br /><span class="orange">BEAUTIFUL</span></h1>
         <p>lorem Ipsem dolor sit amet. consectetur</p>
         <button class="btn btn-primary">BOOK NOW</button>
       </div>
@@ -59,12 +58,84 @@
 
     <!-- Booking Section -->
     <section class="booking-section">
-      <div class="container wrapper">
+      <div class="container booking-section__wrapper">
         <div class="booking-section__img">
           <img src="./assests/img/image1.jpg" alt="Booking Image" />
         </div>
         <form class="booking-section__form">
-          Booking Form
+          <div class="booking-section__form__flex container">
+            <div class="booking-section__text">
+              <h3 class="booking-section__text__offer">free 7 days</h3>
+              <h2 class="booking-section__text__title">online booking</h2>
+            </div>
+            <div class="booking-section__inputs">
+              <div class="booking-section__inputs__wrapper">
+                <div class="booking-section__inputs__border">
+                  <select
+                    name="booking__number"
+                    class="booking-section__number"
+                    required
+                  >
+                    <option value="1">One</option>
+                    <option value="2">2 People</option>
+                    <option value="3" selected>3 People</option>
+                    <option value="4">4 People</option>
+                  </select>
+                </div>
+                <div class="booking-section__inputs__border">
+                  <input
+                    type="date"
+                    class="booking-date"
+                    placeholder="Date"
+                    required
+                  />
+                </div>
+                <div class="booking-section__inputs__border">
+                  <input
+                    type="time"
+                    class="booking-time"
+                    placeholder="Time"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="booking-section__inputs__wrapper">
+                <div class="booking-section__inputs__border">
+                  <select name="name" class="booking-name" required>
+                    <option
+                      value="Name"
+                      selected
+                      disabled
+                      hidden
+                      class="disabled"
+                      >Name</option
+                    >
+                    <option value="1">name1</option>
+                  </select>
+                </div>
+                <div class="booking-section__inputs__border">
+                  <input
+                    type="text"
+                    name=""
+                    class="booking-phone"
+                    placeholder="Phone"
+                  />
+                </div>
+                <div class="booking-section__inputs__border">
+                  <input
+                    type="text"
+                    name=""
+                    class="booking-email"
+                    placeholder="Email"
+                    required
+                  />
+                </div>
+              </div>
+            </div>
+            <button class="booking-section__button" type="submit">
+              Book Now
+            </button>
+          </div>
         </form>
       </div>
     </section>
@@ -102,7 +173,6 @@
             facilis!
           </p>
         </div>
-
         <div class="training-programs__wrapper wrapper">
           <div class="trainging-programs__program">
             <img
@@ -156,9 +226,12 @@
     <!-- Trainers Section -->
     <section class="trainers-section">
       <div class="container">
-        <div class="trainser-section__heading">
-          <h2>Expert Trainsers</h2>
-          <p>
+        <div class="trainers-section__heading">
+          <h2 class="trainers-section__title">
+            expert
+            <span class="trainers-section__highlited-text"> trainers</span>
+          </h2>
+          <p class="trainers-section__intro">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid,
             ad!
           </p>
@@ -167,36 +240,48 @@
         <div class="trainers-section__wrapper wrapper">
           <div class="trainers-section__trainer">
             <img
-              src="./assests/img/expert-trainers/image-trainer-1.jpg"
+              class="trainers-section__trainer-img"
+              src="./assests/img/expert-trainers/image-trainer-1.png"
               alt="Trainer Image"
             />
-            <h3>Sarra Miller</h3>
-            <span>Spinning Trainer</span>
-            <p>
+            <h3 class="trainers-section__trainer-name">Sarra Miller</h3>
+            <span
+              class="trainers-section__highlited-text trainers-section__training-type"
+              >Spinning Trainer</span
+            >
+            <p class="trainers-section__describtion">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Distinctio, ad.
             </p>
           </div>
           <div class="trainers-section__trainer">
             <img
-              src="./assests/img/expert-trainers/image-trainer-1.jpg"
+              class="trainers-section__trainer-img"
+              src="./assests/img/expert-trainers/image-trainer-2.png"
               alt="Trainer Image"
             />
-            <h3>Sarra Miller</h3>
-            <span>Spinning Trainer</span>
-            <p>
+            <h3 class="trainers-section__trainer-name">Sarra Miller</h3>
+            <span
+              class="trainers-section__highlited-text trainers-section__training-type"
+              >bootcamp Trainer</span
+            >
+            <p class="trainers-section__describtion">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Distinctio, ad.
             </p>
           </div>
           <div class="trainers-section__trainer">
             <img
-              src="./assests/img/expert-trainers/image-trainer-1.jpg"
+              class="trainers-section__trainer-img"
+              src="./assests/img/expert-trainers/image-trainer-3.png"
               alt="Trainer Image"
             />
-            <h3>Sarra Miller</h3>
-            <span>Spinning Trainer</span>
-            <p>
+            <h3 class="trainers-section__trainer-name">Sarra Miller</h3>
+            <span
+              class="trainers-section__highlited-text trainers-section__training-type"
+              >Spinning Trainer</span
+            >
+            <p class="trainers-section__describtion">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Distinctio, ad.
             </p>
@@ -243,7 +328,7 @@
                   referrerpolicy="no-referrer"
                   class="social-media-link"
                   ><i class="fab fa-facebook-f"></i
-                ></a>
+                ></CHOOSE>
               </li>
               <li>
                 <a
@@ -372,6 +457,21 @@
         <div class="footer-section__feed">
           instagram or twitter news feed
         </div>
+        <div class="footer-section__blogs">
+          Blog Posts
+        </div>
+        <div class="footer-section__feed">
+          instagram or twitter news feed
+        </div>
+        <form class="footer-section__subscribe">
+          <input
+            type="email"
+            name="subscribe"
+            placeholder="Your Email..."
+            id="footer-section__subscribe"
+          />
+          <button class="btn btn-primary" type="submit">subscribe</button>
+        </form>
       </div>
 
       <div class="footer-section__credits">
