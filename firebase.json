@@ -154,6 +154,17 @@
           "destination": "/index.html"
         }
       ]
+    },
+    {
+      "target": "mohmmed-mahsoub",
+      "public": "dist",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
     }
   ]
 }
