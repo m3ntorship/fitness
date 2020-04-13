@@ -40,6 +40,7 @@
 /* Subscribtion section */
 
 .footer-section__subscrition .footer-title {
+  margin-top: 1.8em;
   font-size: 24px;
   font-weight: bold;
   line-height: 1.25;
@@ -60,6 +61,7 @@
 
 .footer-section__subscrition .footer-section__social-links {
   display: flex;
+  align-items: center;
 }
 
 .footer-section__subscrition .footer-section__social-links .social-links-title {
