@@ -22,7 +22,6 @@
         }
       ]
     },
-
     {
       "target": "abdalla-elmahdy",
       "public": "dist",
@@ -157,6 +156,17 @@
     },
     {
       "target": "mohmmed-mahsoub",
+      "public": "dist",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    },
+    {
+      "target": "hossam-khalaf",
       "public": "dist",
       "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
       "rewrites": [
