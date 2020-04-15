@@ -7,7 +7,7 @@
   position: relative;
   justify-content: center;
   align-items: center;
-  height: 450px;
+  min-height: 570px;
   margin: 0px auto;
 }
 

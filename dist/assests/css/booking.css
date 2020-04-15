@@ -31,6 +31,7 @@
   align-items: center;
   height: 100%;
 }
+
 .booking-section__form__flex {
   display: flex;
   flex-direction: column;
@@ -43,6 +44,7 @@
   text-transform: uppercase;
   text-align: center;
 }
+
 .booking-section__text__title {
   font-size: 36px;
   margin: 1.5rem auto;
@@ -68,6 +70,7 @@
   border-bottom: 1px solid #161418;
   position: relative;
 }
+
 .booking-section__icon-bg {
   position: absolute;
   width: 20%;
@@ -112,17 +115,15 @@
   color: rgba(22, 20, 24, 0.2);
 }
 
-.booking-section__inputs__wrapper
-  input[type='date']::-webkit-calendar-picker-indicator {
+.booking-section__inputs__wrapper input[type='date']::-webkit-calendar-picker-indicator {
   opacity: 0;
 }
 
-.booking-section__inputs__wrapper
-  input[type='date']::-webkit-inner-spin-button {
+.booking-section__inputs__wrapper input[type='date']::-webkit-inner-spin-button {
   display: none;
 }
-.booking-section__inputs__wrapper
-  input[type='time']::-webkit-inner-spin-button {
+
+.booking-section__inputs__wrapper input[type='time']::-webkit-inner-spin-button {
   display: none;
 }
 
@@ -166,18 +167,21 @@
     height: auto;
   }
 
-  .booking-section > .container {
+  .booking-section>.container {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     width: 80%;
   }
+
   .booking-section__img {
     display: none;
   }
+
   .booking-section__inputs {
     width: 70%;
     max-width: 250px;
   }
+
   .booking-section__inputs__wrapper {
     grid-template-columns: 1fr;
   }
@@ -185,9 +189,11 @@
   .booking-section__inputs__border {
     margin: 12px 0;
   }
+
   .booking-section__button {
     margin: 2rem auto;
   }
+
   .booking-section__text {
     margin-top: 2rem;
   }
