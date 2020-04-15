@@ -2,6 +2,7 @@
 
 .booking-section {
   background-color: #f1f4f6;
+  margin-bottom: -100px;
 }
 
 .booking-section__wrapper {
@@ -65,19 +66,55 @@
 
 .booking-section__inputs__border {
   border-bottom: 1px solid #161418;
+  position: relative;
+}
+.booking-section__icon-bg {
+  position: absolute;
+  width: 20%;
+  right: 0;
+  height: 100%;
+  top: 0;
+  background-color: white;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.3rem 0.1rem 0.6rem 0;
+  align-items: center;
+  pointer-events: none;
+}
+
+.booking-section__select-icon {
+  position: absolute;
+  right: 0.35rem;
+  bottom: 50%;
+  transform: translateY(50%);
+  pointer-events: none;
 }
 
 .booking-section__inputs__wrapper input,
 .booking-section__inputs__wrapper select {
+  -moz-appearance: window;
+  -webkit-appearance: none;
+
   outline-style: none;
   width: 100%;
   border: none;
   font-size: 14px;
   padding-top: 0.3rem;
   padding-bottom: 0.6rem;
-  color: rgba (22, 20, 24, 0.7);
+  color: rgba(22, 20, 24, 0.7);
   padding-left: 0;
   height: 100%;
+  background-color: white;
+}
+
+.booking-section__booking-name::placeholder {
+  font-weight: 700;
+  color: rgba(22, 20, 24, 0.2);
+}
+
+.booking-section__inputs__wrapper
+  input[type='date']::-webkit-calendar-picker-indicator {
+  opacity: 0;
 }
 
 .booking-section__inputs__wrapper select option {
