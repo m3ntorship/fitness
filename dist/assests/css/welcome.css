@@ -3,7 +3,6 @@
   background-color: #f1f4f6;
   padding-bottom: 3rem;
 }
-
 .welcom-section .welcom-section__wrapper .container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -30,7 +29,6 @@
   line-height: 2;
   margin: 2rem 0;
 }
-
 .welcom-section .welcom-section__wrapper .welcom-section__text p:last-of-type {
   line-height: 2;
   margin: 2rem 0;
