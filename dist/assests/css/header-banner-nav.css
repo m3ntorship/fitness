@@ -52,7 +52,7 @@
   vertical-align: sub;
 }
 
-.logo span {
+.logo .orange {
   color: #fb7c2f;
 }
 
@@ -81,7 +81,7 @@
   display: none;
 }
 
-.main-section__info p {
+.main-section__info .details {
   margin-top: -1.7rem;
   padding-bottom: 3.5rem;
   letter-spacing: 0.03em;
