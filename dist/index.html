@@ -43,7 +43,6 @@
             <i class="fas fa-bars fa-2x"></i>
           </div>
         </nav>
-           
       </header>
       <div class="main-section__info">
         <h1>MAKE YOUR BODY <br /><span class="orange">BEAUTIFUL</span></h1>
@@ -70,58 +69,59 @@
                   <select
                     name="booking__number"
                     class="booking-section__number"
-                    required
                   >
-                    <option value="1">One</option>
+                    <option value="1" selected>One Person</option>
                     <option value="2">2 People</option>
-                    <option value="3" selected>3 People</option>
+                    <option value="3">3 People</option>
                     <option value="4">4 People</option>
                   </select>
-                </div>
-                <div class="booking-section__inputs__border">
-                  <input
-                    type="date"
-                    class="booking-date"
-                    placeholder="Date"
-                    required
-                  />
-                </div>
-                <div class="booking-section__inputs__border">
-                  <input
-                    type="time"
-                    class="booking-time"
-                    placeholder="Time"
-                    required
-                  />
-                </div>
-              </div>
-              <div class="booking-section__inputs__wrapper">
-                <div class="booking-section__inputs__border">
-                  <select name="name" class="booking-name" required>
-                    <option
-                      value="Name"
-                      selected
-                      disabled
-                      hidden
-                      class="disabled"
-                      >Name</option
-                    >
-                    <option value="1">name1</option>
-                  </select>
+                  <i class="fas fa-angle-down booking-section__select-icon"></i>
                 </div>
                 <div class="booking-section__inputs__border">
                   <input
                     type="text"
-                    name=""
-                    class="booking-phone"
+                    onfocus="(this.type='date')"
+                    class="booking-date"
+                    placeholder="Date"
+                    required
+                  />
+                  <div class="booking-section__icon-bg">
+                    <i class="far fa-calendar-check booking-section__icon"></i>
+                  </div>
+                </div>
+                <div class="booking-section__inputs__border">
+                  <input
+                    type="text"
+                    onfocus="(this.type='time')"
+                    class="booking-time"
+                    placeholder="Time"
+                    required
+                  />
+                  <div class="booking-section__icon-bg">
+                    <i class="far fa-clock"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="booking-section__inputs__wrapper">
+                <div class="booking-section__inputs__border">
+                  <input
+                    type="text"
+                    class="booking-section__booking-name"
+                    placeholder="Name"
+                    required
+                  />
+                </div>
+                <div class="booking-section__inputs__border">
+                  <input
+                    type="text"
+                    class="booking-section__booking-phone"
                     placeholder="Phone"
                   />
                 </div>
                 <div class="booking-section__inputs__border">
                   <input
                     type="text"
-                    name=""
-                    class="booking-email"
+                    class="booking-section__booking-email"
                     placeholder="Email"
                     required
                   />
@@ -136,8 +136,8 @@
       </div>
     </section>
 
-    <!-- Welcom Section -->
-    <seciont class="welcom-section">
+    <!-- Welcome Section -->
+    <section class="welcom-section">
       <div class="welcom-section__wrapper">
         <div class="container">
           <div class="welcom-section__text">
@@ -161,7 +161,7 @@
           </div>
         </div>
       </div>
-    </seciont>
+    </section>
 
     <!-- Training Programs Section -->
     <section class="training-programs section--py">
@@ -174,54 +174,54 @@
           </p>
         </div>
         <div class="training-programs__wrapper wrapper">
-        <div class="training-programs__wrapper">
-
-          <div class="trainging-programs__program">
-            <img
-              src="./assests/img/categories/image-category2.jpg"
-              alt="Training Porgram Image"
-            />
-            <div class="training-programs__program-content">
-              <h3>Basic Crossfit</h3>
-              <p>
-                Our staff includes amazing professionals that have an eye for
-                crossfit.
-              </p>
-              <button class="btn btn-primary btn--getInTouch">
-                Get in Touch
-              </button>
+          <div class="training-programs__wrapper">
+            <div class="trainging-programs__program">
+              <img
+                src="./assests/img/categories/image-category2.jpg"
+                alt="Training Porgram Image"
+              />
+              <div class="training-programs__program-content">
+                <h3>Basic Crossfit</h3>
+                <p>
+                  Our staff includes amazing professionals that have an eye for
+                  crossfit.
+                </p>
+                <button class="btn btn-primary btn--getInTouch">
+                  Get in Touch
+                </button>
+              </div>
             </div>
-          </div>
-          <div class="trainging-programs__program">
-            <img
-              src="./assests/img/categories/image-category1.jpg"
-              alt="Training Porgram Image"
-            />
-            <div class="training-programs__program-content">
-              <h3>Fitness Studio</h3>
-              <p>
-                Work out in fitness groups or with a personal certified trainer
-                in our gym center.
-              </p>
-              <button class="btn btn-primary btn--getInTouch">
-                Get in Touch
-              </button>
+            <div class="trainging-programs__program">
+              <img
+                src="./assests/img/categories/image-category1.jpg"
+                alt="Training Porgram Image"
+              />
+              <div class="training-programs__program-content">
+                <h3>Fitness Studio</h3>
+                <p>
+                  Work out in fitness groups or with a personal certified
+                  trainer in our gym center.
+                </p>
+                <button class="btn btn-primary btn--getInTouch">
+                  Get in Touch
+                </button>
+              </div>
             </div>
-          </div>
-          <div class="trainging-programs__program">
-            <img
-              src="./assests/img/categories/image-category3.jpg"
-              alt="Training Porgram Image"
-            />
-            <div class="training-programs__program-content">
-              <h3>Yoga Classes</h3>
-              <p>
-                What do you think about yoga? If you have a passion for it,
-                we’ve got a special program.
-              </p>
-              <button class="btn btn-primary btn--getInTouch">
-                Get in Touch
-              </button>
+            <div class="trainging-programs__program">
+              <img
+                src="./assests/img/categories/image-category3.jpg"
+                alt="Training Porgram Image"
+              />
+              <div class="training-programs__program-content">
+                <h3>Yoga Classes</h3>
+                <p>
+                  What do you think about yoga? If you have a passion for it,
+                  we’ve got a special program.
+                </p>
+                <button class="btn btn-primary btn--getInTouch">
+                  Get in Touch
+                </button>
+              </div>
             </div>
           </div>
         </div>
@@ -343,7 +343,7 @@
                   referrerpolicy="no-referrer"
                   class="social-media-link"
                   ><i class="fab fa-facebook-f"></i
-                ></CHOOSE>
+                ></a>
               </li>
               <li>
                 <a
