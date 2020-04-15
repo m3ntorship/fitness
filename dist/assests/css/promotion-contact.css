@@ -32,11 +32,9 @@
 }
 
 .promotions-section {
-  background: no-repeat url('../img/contact/image3.jpg');
-  background-size: cover;
+  background: no-repeat url('../img/contact/image3.jpg') center center/cover;
 }
 
 .contact-section {
-  background: no-repeat url('../img/contact/image4.jpg');
-  background-size: cover;
+  background: no-repeat url('../img/contact/image4.jpg') center center/cover;
 }
