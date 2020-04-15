@@ -6,6 +6,7 @@
   background-size: cover;
   position: relative;
 }
+
 .main-header .main-header__nav {
   display: flex;
   justify-content: space-between;
@@ -17,23 +18,28 @@
   left: 0;
   z-index: 9999;
 }
+
 /* hamburger-item */
 .main-header__nav .left-navigation {
   margin-left: 2rem;
 }
+
 .main-header__nav .right-navigation {
   margin-right: 1rem;
 }
+
 .main-header__nav ul,
 .main-header__nav ul li {
   display: inline-block;
   padding: 0.8rem 0.5rem;
 }
+
 .main-header__nav ul,
 .main-header__nav ul li a {
   text-decoration: none;
   color: white;
 }
+
 .logo a {
   text-decoration: none;
   color: white;
@@ -45,30 +51,36 @@
   margin-top: 2rem;
   vertical-align: sub;
 }
+
 .logo span {
   color: #fb7c2f;
 }
+
 .btn-secondary {
   background-color: transparent;
   font-size: smaller;
   border: 1px solid white;
   letter-spacing: 0.2em;
 }
+
 .main-section__info {
   position: absolute;
   z-index: 30;
   top: 24%;
   left: 15%;
 }
+
 .main-section__info h1 {
   color: white;
   font-size: 4.3vw;
   font-weight: 700;
   line-height: 1.2em;
 }
+
 .hambergur-bar {
   display: none;
 }
+
 .main-section__info p {
   margin-top: -1.7rem;
   padding-bottom: 3.5rem;
@@ -76,6 +88,7 @@
   font-size: smaller;
   color: rgba(240, 248, 255, 0.8);
 }
+
 .orange {
   color: #fb7c2f;
 }
@@ -84,16 +97,20 @@
   font-size: 0.7em;
   padding: 0.8rem 1.4rem;
 }
+
 .btn-primary:hover {
   background-color: #fb7d2fea;
   color: white !important;
 }
+
 .btn:hover {
   background-color: #fb7d2fea;
 }
+
 ul li a:hover {
   color: #fb7c2f;
 }
+
 /* ============================== Media queries ====================================== */
 
 /* for tablets */
@@ -104,18 +121,22 @@ ul li a:hover {
     left: 5%;
     width: auto;
   }
+
   .main-section__info h1 {
     font-size: 7vw;
     font-weight: 700;
   }
+
   .main-header__nav {
     justify-content: space-around;
     padding: 1rem;
   }
+
   .main-header__nav ul,
   .main-header__nav ul li {
     display: none;
   }
+
   .hambergur-bar {
     display: block;
     cursor: pointer;
@@ -125,35 +146,42 @@ ul li a:hover {
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+
   /* For mobile phones: */
   .main-header__nav ul,
   .main-header__nav ul li {
     display: none;
   }
+
   .hambergur-bar {
     display: block;
     cursor: pointer;
     margin-right: 1.6rem;
     color: white;
   }
+
   .main-section__info h1 {
     font-size: 14vw;
     font-weight: 700;
   }
+
   .btn {
     width: 80%;
     margin: auto;
     display: block;
   }
+
   .main-section__info {
     display: block;
     text-align: center;
     top: 30%;
     left: auto;
   }
+
   .main-header__nav ul {
     padding: 0 0 0 1rem;
   }
+
   .main-header__nav {
     justify-content: space-between;
     background-color: transparent;
