@@ -28,19 +28,19 @@
   margin-right: 1rem;
 }
 
-.main-header__nav ul,
-.main-header__nav ul li {
+.main-header__nav .nav-list,
+.main-header__nav .nav-list .nav-item {
   display: inline-block;
   padding: 0.8rem 0.5rem;
 }
 
-.main-header__nav ul,
-.main-header__nav ul li a {
+.main-header__nav .nav-list,
+.main-header__nav .nav-list .nav-item .nav-link {
   text-decoration: none;
   color: white;
 }
 
-.logo a {
+.logo .logo-link {
   text-decoration: none;
   color: white;
   font-size: 23px;
@@ -52,7 +52,7 @@
   vertical-align: sub;
 }
 
-.logo span {
+.logo .orange {
   color: #fb7c2f;
 }
 
@@ -70,7 +70,7 @@
   left: 15%;
 }
 
-.main-section__info h1 {
+.main-section__info .main-heading {
   color: white;
   font-size: 4.3vw;
   font-weight: 700;
@@ -81,7 +81,7 @@
   display: none;
 }
 
-.main-section__info p {
+.main-section__info .details {
   margin-top: -1.7rem;
   padding-bottom: 3.5rem;
   letter-spacing: 0.03em;
@@ -107,7 +107,7 @@
   background-color: #fb7d2fea;
 }
 
-ul li a:hover {
+.nav-list .nav-item .nav-link:hover {
   color: #fb7c2f;
 }
 
@@ -122,7 +122,7 @@ ul li a:hover {
     width: auto;
   }
 
-  .main-section__info h1 {
+  .main-section__info .main-heading {
     font-size: 7vw;
     font-weight: 700;
   }
@@ -132,8 +132,8 @@ ul li a:hover {
     padding: 1rem;
   }
 
-  .main-header__nav ul,
-  .main-header__nav ul li {
+  .main-header__nav .nav-list,
+  .main-header__nav .nav-list .nav-item {
     display: none;
   }
 
@@ -147,8 +147,8 @@ ul li a:hover {
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   /* For mobile phones: */
-  .main-header__nav ul,
-  .main-header__nav ul li {
+  .main-header__nav .nav-list,
+  .main-header__nav .nav-list .nav-item {
     display: none;
   }
 
@@ -159,7 +159,7 @@ ul li a:hover {
     color: white;
   }
 
-  .main-section__info h1 {
+  .main-section__info .main-heading {
     font-size: 14vw;
     font-weight: 700;
   }
@@ -177,7 +177,7 @@ ul li a:hover {
     left: auto;
   }
 
-  .main-header__nav ul {
+  .main-header__nav .nav-list {
     padding: 0 0 0 1rem;
   }
 
