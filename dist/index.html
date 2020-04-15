@@ -70,24 +70,43 @@
                     name="booking__number"
                     class="booking-section__number"
                   >
-                    <option value="1">One</option>
+                    <option value="1" selected>One Person</option>
                     <option value="2">2 People</option>
-                    <option value="3" selected>3 People</option>
+                    <option value="3">3 People</option>
                     <option value="4">4 People</option>
                   </select>
+                  <i class="fas fa-angle-down booking-section__select-icon"></i>
                 </div>
                 <div class="booking-section__inputs__border">
-                  <input type="date" class="booking-date" required />
+                  <input
+                    type="text"
+                    onfocus="(this.type='date')"
+                    class="booking-date"
+                    placeholder="Date"
+                    required
+                  />
+                  <div class="booking-section__icon-bg">
+                    <i class="far fa-calendar-check booking-section__icon"></i>
+                  </div>
                 </div>
                 <div class="booking-section__inputs__border">
-                  <input type="time" class="booking-time" required />
+                  <input
+                    type="text"
+                    onfocus="(this.type='time')"
+                    class="booking-time"
+                    placeholder="Time"
+                    required
+                  />
+                  <div class="booking-section__icon-bg">
+                    <i class="far fa-clock"></i>
+                  </div>
                 </div>
               </div>
               <div class="booking-section__inputs__wrapper">
                 <div class="booking-section__inputs__border">
                   <input
                     type="text"
-                    class="booking-phone"
+                    class="booking-section__booking-name"
                     placeholder="Name"
                     required
                   />
@@ -95,14 +114,14 @@
                 <div class="booking-section__inputs__border">
                   <input
                     type="text"
-                    class="booking-phone"
+                    class="booking-section__booking-phone"
                     placeholder="Phone"
                   />
                 </div>
                 <div class="booking-section__inputs__border">
                   <input
                     type="text"
-                    class="booking-email"
+                    class="booking-section__booking-email"
                     placeholder="Email"
                     required
                   />
