@@ -54,8 +54,8 @@
 }
 
 .footer-section__subscrition .footer-paragraph {
-  font-size: 14px;
-  line-height: 2.14;
+  font-size: 0.8rem;
+  line-height: 2;
   color: rgba(255, 255, 255, 0.7);
   margin: 50px 0;
 }
@@ -90,7 +90,7 @@
 
 .footer-section__subscrition .footer-section__subscribe {
   display: flex;
-  margin: 10px 0;
+  margin: 2rem 0;
 }
 
 .footer-section__subscrition .footer-section__subscribe input {
