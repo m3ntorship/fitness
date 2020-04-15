@@ -13,8 +13,8 @@
   height: 55vh;
 }
 
-.promotions-section>*,
-.contact-section>* {
+.promotions-section > *,
+.contact-section > * {
   margin-bottom: 25px;
   color: #fff;
   text-transform: uppercase;
