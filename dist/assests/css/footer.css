@@ -76,24 +76,25 @@
   margin-left: 10px;
   font-size: 16px;
 }
-.footer-section__subscrition
-  .footer-section__social-links
-  .social-media-link
-  :hover {
+
+.footer-section__subscrition .footer-section__social-links .social-media-link :hover {
   color: #fa7c30;
 }
 
 .footer-section__subscrition .footer-section__social-links .social-links-list {
   display: inline-flex;
 }
+
 .footer-section__subscrition .footer-section__subscribe {
   display: flex;
   margin: 10px 0;
 }
+
 .footer-section__subscrition .footer-section__subscribe input {
   padding-left: 1rem;
   outline: none;
 }
+
 .footer-section__subscrition .footer-section__subscribe input::placeholder {
   color: #ccc;
 }
@@ -104,14 +105,17 @@
   margin: -0.2em 0em;
   padding-left: 0.3em;
 }
+
 .footer-section__feed .img_row img {
   max-width: 30%;
   max-height: 100%;
   margin-left: -0.25em;
 }
+
 .footer-section__feed .header {
   margin: 3em 0em;
 }
+
 .footer-section__feed .options {
   margin-top: 0.5em;
 }
