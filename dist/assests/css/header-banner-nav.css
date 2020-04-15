@@ -29,13 +29,13 @@
 }
 
 .main-header__nav .nav-list,
-.main-header__nav .nav-list li {
+.main-header__nav .nav-list .nav-item {
   display: inline-block;
   padding: 0.8rem 0.5rem;
 }
 
 .main-header__nav .nav-list,
-.main-header__nav .nav-list li a {
+.main-header__nav .nav-list .nav-item a {
   text-decoration: none;
   color: white;
 }
@@ -107,7 +107,7 @@
   background-color: #fb7d2fea;
 }
 
-.nav-list li a:hover {
+.nav-list .nav-item a:hover {
   color: #fb7c2f;
 }
 
@@ -133,7 +133,7 @@
   }
 
   .main-header__nav .nav-list,
-  .main-header__nav .nav-list li {
+  .main-header__nav .nav-list .nav-item {
     display: none;
   }
 
@@ -148,7 +148,7 @@
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   /* For mobile phones: */
   .main-header__nav .nav-list,
-  .main-header__nav .nav-list li {
+  .main-header__nav .nav-list .nav-item {
     display: none;
   }
 
