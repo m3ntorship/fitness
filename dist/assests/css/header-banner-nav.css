@@ -81,8 +81,8 @@
 }
 
 .btn-primary {
-  font-size: 0.7em;
-  padding: 0.8rem 1.4rem;
+  font-size: 0.8rem;
+  padding: 1rem 2.5rem;
 }
 .btn-primary:hover {
   background-color: #fb7d2fea;
@@ -99,7 +99,6 @@ ul li a:hover {
 /* for tablets */
 
 @media only screen and (max-width: 768px) {
-
   .main-section__info {
     top: 33%;
     left: 5%;
@@ -126,7 +125,7 @@ ul li a:hover {
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-    /* For mobile phones: */
+  /* For mobile phones: */
   .main-header__nav ul,
   .main-header__nav ul li {
     display: none;

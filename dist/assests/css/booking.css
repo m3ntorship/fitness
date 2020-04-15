@@ -86,7 +86,7 @@
 }
 
 .booking-section__button {
-  font-size: 14px;
+  font-size: 0.8rem;
   padding: 1rem 2.5rem;
   border: none;
   color: white;
@@ -99,6 +99,10 @@
   text-transform: uppercase;
   margin: 1rem auto;
   cursor: pointer;
+}
+.booking-section__button:hover {
+  background-color: #fb7d2fea;
+  color: white !important;
 }
 
 @media screen and (max-width: 992px) {

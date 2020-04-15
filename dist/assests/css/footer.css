@@ -94,6 +94,10 @@
   padding-left: 1rem;
   outline: none;
 }
+.footer-section__subscrition .footer-section__subscribe .btn {
+  font-size: 0.7em;
+  padding: 0.8rem 1.4rem;
+}
 .footer-section__subscrition .footer-section__subscribe input::placeholder {
   color: #ccc;
 }
