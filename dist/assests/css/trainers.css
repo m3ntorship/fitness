@@ -17,6 +17,8 @@
 
 .trainers-section__intro {
   margin: 1rem 0 3rem 0;
+  font-size: 0.8rem;
+  color: #7f8083;
 }
 
 .trainers-section__highlited-text {
@@ -25,13 +27,14 @@
 
 .trainers-section__trainer-name {
   margin: 1rem 0 0 0;
-  font-size: 1.625;
+  font-size: 1.5rem;
   color: #161418;
 }
 
 .trainers-section__describtion {
   margin: 0.5rem 0;
   color: #161418;
+  line-height: 1.8rem;
   font-size: 1rem;
 }
 
@@ -39,9 +42,8 @@
   text-transform: uppercase;
   display: inline-block;
   color: #fa7c30;
-  margin: 0.6rem;
   font-weight: bold;
-  font-size: 0.875;
+  font-size: 0.75rem;
 }
 
 .trainers-section__trainer-img {
