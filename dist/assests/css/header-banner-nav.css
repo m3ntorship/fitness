@@ -70,7 +70,7 @@
   left: 15%;
 }
 
-.main-section__info h1 {
+.main-section__info .main-heading {
   color: white;
   font-size: 4.3vw;
   font-weight: 700;
@@ -122,7 +122,7 @@
     width: auto;
   }
 
-  .main-section__info h1 {
+  .main-section__info .main-heading {
     font-size: 7vw;
     font-weight: 700;
   }
@@ -159,7 +159,7 @@
     color: white;
   }
 
-  .main-section__info h1 {
+  .main-section__info .main-heading {
     font-size: 14vw;
     font-weight: 700;
   }
