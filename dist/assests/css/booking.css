@@ -115,15 +115,18 @@
   color: rgba(22, 20, 24, 0.2);
 }
 
-.booking-section__inputs__wrapper input[type='date']::-webkit-calendar-picker-indicator {
+.booking-section__inputs__wrapper
+  input[type='date']::-webkit-calendar-picker-indicator {
   opacity: 0;
 }
 
-.booking-section__inputs__wrapper input[type='date']::-webkit-inner-spin-button {
+.booking-section__inputs__wrapper
+  input[type='date']::-webkit-inner-spin-button {
   display: none;
 }
 
-.booking-section__inputs__wrapper input[type='time']::-webkit-inner-spin-button {
+.booking-section__inputs__wrapper
+  input[type='time']::-webkit-inner-spin-button {
   display: none;
 }
 
@@ -167,7 +170,7 @@
     height: auto;
   }
 
-  .booking-section>.container {
+  .booking-section > .container {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     width: 80%;

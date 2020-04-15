@@ -77,7 +77,10 @@
   font-size: 16px;
 }
 
-.footer-section__subscrition .footer-section__social-links .social-media-link :hover {
+.footer-section__subscrition
+  .footer-section__social-links
+  .social-media-link
+  :hover {
   color: #fa7c30;
 }
 
