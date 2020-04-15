@@ -17,6 +17,14 @@ buttons color: #fa7c30
   box-sizing: border-box;
 }
 
+html {
+  /* Added scroll-behaviour to the root element 
+    to apply to the viewport
+    https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-behavior
+  */
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Open Sans';
 }
