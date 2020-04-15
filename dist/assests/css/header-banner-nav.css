@@ -35,12 +35,12 @@
 }
 
 .main-header__nav .nav-list,
-.main-header__nav .nav-list .nav-item a {
+.main-header__nav .nav-list .nav-item .nav-link {
   text-decoration: none;
   color: white;
 }
 
-.logo a {
+.logo .logo-link {
   text-decoration: none;
   color: white;
   font-size: 23px;
@@ -107,7 +107,7 @@
   background-color: #fb7d2fea;
 }
 
-.nav-list .nav-item a:hover {
+.nav-list .nav-item .nav-link:hover {
   color: #fb7c2f;
 }
 
