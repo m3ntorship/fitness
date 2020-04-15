@@ -117,6 +117,15 @@
   opacity: 0;
 }
 
+.booking-section__inputs__wrapper
+  input[type='date']::-webkit-inner-spin-button {
+  display: none;
+}
+.booking-section__inputs__wrapper
+  input[type='time']::-webkit-inner-spin-button {
+  display: none;
+}
+
 .booking-section__inputs__wrapper select option {
   background-color: #f1f4f6;
 }
