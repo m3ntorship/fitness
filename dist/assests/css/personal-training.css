@@ -3,6 +3,7 @@
   background-image: url(../img/image-personal-trainer.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   display: flex;
   position: relative;
   justify-content: center;
