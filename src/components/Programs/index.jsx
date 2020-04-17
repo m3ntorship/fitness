@@ -36,9 +36,16 @@ const Programs = () => {
           <div className="training-programs__wrapper">
             {programsFetched &&
               programs.map(({ title, description, image: { url } }) => {
+                console.log(url);
+                const imgSrc = ~url.indexOf('uploads')
+                  ? `${BACKEND_URL}${url}`
+                  : url;
                 return (
-                  <div className="trainging-programs__program" key={url}>
-                    <img src={`${BACKEND_URL}${url}`} alt="Training Porgram" />
+                  <div
+                    className="trainging-programs__program"
+                    key={url + title}
+                  >
+                    <img src={imgSrc} alt="Training Porgram" />
                     <div className="training-programs__program-content">
                       <h3>{title}</h3>
                       <p>{description}</p>
