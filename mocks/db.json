@@ -1,0 +1,185 @@
+{
+  "welcome": {
+    "id": 1,
+    "header": "WELCOME TO FITNESS",
+    "subheader": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique accusamus eligendi quaerat fugit suscipit quam eveniet officiis commodi unde praesentium?",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius minus nisi amet magni temporibus nemo odit deserunt error officiis architecto!",
+    "created_at": "2020-04-16T20:25:49.749Z",
+    "updated_at": "2020-04-16T20:25:49.749Z"
+  },
+  "navigations": [
+    {
+      "id": 1,
+      "title": "HOME",
+      "url": "/",
+      "active": true,
+      "order": 10,
+      "created_at": "2020-04-16T19:51:55.378Z",
+      "updated_at": "2020-04-16T20:11:13.326Z"
+    },
+    {
+      "id": 2,
+      "title": "ABOUT US",
+      "url": "#about",
+      "active": true,
+      "order": 20,
+      "created_at": "2020-04-16T19:52:08.586Z",
+      "updated_at": "2020-04-16T20:11:28.458Z"
+    },
+    {
+      "id": 3,
+      "title": "PROGRAMS",
+      "url": "#programs",
+      "active": true,
+      "order": 30,
+      "created_at": "2020-04-16T19:52:22.765Z",
+      "updated_at": "2020-04-16T20:11:37.487Z"
+    },
+    {
+      "id": 4,
+      "title": "TRAINERS",
+      "url": "#trainers",
+      "active": true,
+      "order": 40,
+      "created_at": "2020-04-16T19:52:42.150Z",
+      "updated_at": "2020-04-16T20:11:50.492Z"
+    },
+    {
+      "id": 5,
+      "title": "CONTACT",
+      "url": "#contact",
+      "active": true,
+      "order": 50,
+      "created_at": "2020-04-16T19:52:53.780Z",
+      "updated_at": "2020-04-16T20:11:58.496Z"
+    },
+    {
+      "id": 6,
+      "title": "BLOGS",
+      "url": "#blog",
+      "active": true,
+      "order": 60,
+      "created_at": "2020-04-16T19:53:25.776Z",
+      "updated_at": "2020-04-16T20:12:07.298Z"
+    },
+    {
+      "id": 8,
+      "title": "INTRO",
+      "url": "#intro",
+      "active": true,
+      "order": 9,
+      "created_at": "2020-04-16T20:08:57.428Z",
+      "updated_at": "2020-04-16T20:12:29.078Z"
+    }
+  ],
+  "programs": [
+    {
+      "id": 1,
+      "title": "Basic Crossfit",
+      "description": "Our staff includes amazing professionals that have an eye for crossfit.",
+      "created_at": "2020-04-16T20:39:12.509Z",
+      "updated_at": "2020-04-16T20:39:12.509Z",
+      "image": {
+        "id": 1,
+        "name": "image-category1",
+        "alternativeText": "",
+        "caption": "",
+        "width": 350,
+        "height": 399,
+        "formats": {
+          "thumbnail": {
+            "hash": "thumbnail_image-category1_aab9fe66c0",
+            "ext": ".jpeg",
+            "mime": "image/jpeg",
+            "width": 137,
+            "height": 156,
+            "size": 5.4,
+            "url": "https://placekitten.com/g/350/400"
+          }
+        },
+        "hash": "image-category1_aab9fe66c0",
+        "ext": ".jpeg",
+        "mime": "image/jpeg",
+        "size": 20.26,
+        "url": "https://placekitten.com/g/350/400",
+        "previewUrl": null,
+        "provider": "local",
+        "provider_metadata": null,
+        "created_at": "2020-04-16T20:39:00.070Z",
+        "updated_at": "2020-04-16T20:39:00.070Z"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Fitness Studio",
+      "description": "Work out in fitness groups or with a personal certified trainer in our gym center.",
+      "created_at": "2020-04-16T20:39:43.038Z",
+      "updated_at": "2020-04-16T20:39:43.038Z",
+      "image": {
+        "id": 2,
+        "name": "image-category2",
+        "alternativeText": "",
+        "caption": "",
+        "width": 350,
+        "height": 399,
+        "formats": {
+          "thumbnail": {
+            "hash": "thumbnail_image-category2_b14946bde5",
+            "ext": ".jpeg",
+            "mime": "image/jpeg",
+            "width": 137,
+            "height": 156,
+            "size": 3.28,
+            "url": "https://placekitten.com/g/350/400"
+          }
+        },
+        "hash": "image-category2_b14946bde5",
+        "ext": ".jpeg",
+        "mime": "image/jpeg",
+        "size": 12.1,
+        "url": "https://placekitten.com/g/350/400",
+        "previewUrl": null,
+        "provider": "local",
+        "provider_metadata": null,
+        "created_at": "2020-04-16T20:39:39.968Z",
+        "updated_at": "2020-04-16T20:39:39.968Z"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Yoga Classes",
+      "description": "What do you think about yoga? If you have a passion for it, we’ve got a special program.",
+      "created_at": "2020-04-16T20:40:26.983Z",
+      "updated_at": "2020-04-16T20:40:26.983Z",
+      "image": {
+        "id": 3,
+        "name": "image-category3",
+        "alternativeText": "",
+        "caption": "",
+        "width": 350,
+        "height": 399,
+        "formats": {
+          "thumbnail": {
+            "hash": "thumbnail_image-category3_4eceef9372",
+            "ext": ".jpeg",
+            "mime": "image/jpeg",
+            "width": 137,
+            "height": 156,
+            "size": 5.18,
+            "url": "https://placekitten.com/g/350/400"
+          }
+        },
+        "hash": "image-category3_4eceef9372",
+        "ext": ".jpeg",
+        "mime": "image/jpeg",
+        "size": 22.5,
+        "url": "https://placekitten.com/g/350/400",
+        "previewUrl": null,
+        "provider": "local",
+        "provider_metadata": null,
+        "created_at": "2020-04-16T20:40:22.904Z",
+        "updated_at": "2020-04-16T20:40:22.904Z"
+      }
+    }
+  ]
+}
